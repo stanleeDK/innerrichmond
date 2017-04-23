@@ -11,6 +11,46 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20170416205655) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "ingested_trulia_properties", force: :cascade do |t|
+    t.string   "address"
+    t.integer  "address_number"
+    t.string   "address_number_suffix"
+    t.string   "street_name"
+    t.string   "street_type"
+    t.string   "unit_number"
+    t.integer  "zipcode"
+    t.string   "size_description"
+    t.integer  "bedrooms"
+    t.integer  "bathrooms"
+    t.integer  "square_feet"
+    t.string   "property_page"
+    t.decimal  "value"
+    t.date     "sold_at"
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+  end
+
+  create_table "official_addresses", force: :cascade do |t|
+    t.integer  "eas_base_id"
+    t.integer  "eas_sub_id"
+    t.integer  "CNN"
+    t.string   "address"
+    t.integer  "address_number"
+    t.string   "address_number_suffix"
+    t.string   "street_name"
+    t.string   "street_type"
+    t.string   "unit_number"
+    t.integer  "zipcode"
+    t.integer  "blocklot"
+    t.decimal  "long",                  precision: 15, scale: 7
+    t.decimal  "lat",                   precision: 15, scale: 7
+    t.datetime "created_at",                                     null: false
+    t.datetime "updated_at",                                     null: false
+  end
 
 end

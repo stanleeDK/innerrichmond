@@ -1,0 +1,146 @@
+value;size;address;streetname;streetnum;zipcode;streettype;apartment;unitnum;sold_at;city;source;property_page_url
+$2,010,000;2000 sqft;214 Arguello Blvd,94118;ARGUELLO;214;94118;BLVD;0;NULL;2016-10-14;San_Francisco,CA/;Trulia;NULL
+$2,750,000;4608 sqft;1300 Lake St,94118;LAKE;1300;94118;ST;0;NULL;2016-10-28;San Francisco;Trulia;NULL
+$1,950,000;4037 sqft;3814 Fulton St,94118;FULTON;3814;94118;ST;0;NULL;2016-10-28;San Francisco;Trulia;NULL
+$2,550,000;3425 sqft;730 Euclid Ave,94118;EUCLID;730;94118;AVE;0;NULL;2016-10-28;San Francisco;Trulia;NULL
+$24,666,666;3484 sqft;3323 Clay St,94118;CLAY;3323;94118;ST;0;NULL;2016-10-27;San Francisco;Trulia;NULL
+$2,850,000;2290 sqft;115 14th Ave,94118;14TH;115;94118;AVE;0;NULL;2016-10-25;San Francisco;Trulia;NULL
+$1,110,000;1275 sqft;827 Balboa St,94118;BALBOA;827;94118;ST;0;NULL;2016-10-25;San Francisco;Trulia;NULL
+$2,330,000;3296 sqft;9 14th Ave,94118;14TH;9;94118;AVE;0;NULL;2016-10-21;San Francisco;Trulia;NULL
+$3,450,000;3234 sqft;90 Jordan Ave,94118;JORDAN;90;94118;AVE;0;NULL;2016-10-21;San Francisco;Trulia;NULL
+$2,000,000;3,260 sqft;1501 Lake St,94118;LAKE;1501;94118;ST;0;NULL;2016-10-12;San Francisco;Trulia;NULL
+$2,100,000;2672 sqft;149 Masonic Ave,94118;MASONIC;149;94118;AVE;0;NULL;2016-10-11;San Francisco;Trulia;NULL
+$2,460,000;1925 sqft;310 Spruce St,94118;SPRUCE;310;94118;ST;0;NULL;2016-10-07;San Francisco;Trulia;NULL
+$4,100,000;2788 sqft;36 Commonwealth Ave,94118;COMMONWEALTH;36;94118;AVE;0;NULL;2016-10-07;San Francisco;Trulia;NULL
+$1,740,000;1,877 sqft;535 7th Ave,94118;7TH;535;94118;AVE;0;NULL;2016-10-06;San Francisco;Trulia;NULL
+$1,360,000;1,400 sqft;182 8th Ave,94118;8TH;182;94118;AVE;0;NULL;2016-10-04;San Francisco;Trulia;NULL
+$1,500,000;1545 sqft;2028 McAllister St,94118;MCALLISTER;2028;94118;ST;0;NULL;2016-10-04;San Francisco;Trulia;NULL
+$2,100,000;1858 sqft;140 Stanyan St,94118;STANYAN;140;94118;ST;0;NULL;2016-10-03;San Francisco;Trulia;NULL
+$310,000;7065 sqft;195 14th Ave,94118;14TH;195;94118;AVE;0;NULL;2016-09-30;San Francisco;Trulia;NULL
+$6,300,000;3293 sqft;308 Laurel St,94118;LAUREL;308;94118;ST;0;NULL;2016-09-30;San Francisco;Trulia;NULL
+$780,000;970 sqft;402 8th Ave #405,94118;8TH;402;94118;AVE;1;#405;2016-09-23;San Francisco;Trulia;NULL
+$1,350,000;1600 sqft;128 Wood St #1,94118;WOOD;128;94118;ST;1;#1;2016-09-23;San Francisco;Trulia;NULL
+$3,600,000;3514 sqft;64 Parker Ave,94118;PARKER;64;94118;AVE;0;NULL;2016-09-23;San Francisco;Trulia;NULL
+$3,525,000;2350 sqft;76 6th Ave,94118;6TH;76;94118;AVE;0;NULL;2016-10-31;San Francisco;Trulia;NULL
+$3,400,000;2868 sqft;147 Parker Ave,94118;PARKER;147;94118;AVE;0;NULL;2016-09-20;San Francisco;Trulia;NULL
+$1,020,000;937 sqft;137 Cook St #3,94118;COOK;137;94118;ST;1;#3;2016-09-16;San Francisco;Trulia;NULL
+$1,739,500;2576 sqft;2656 McAllister St,94118;MCALLISTER;2656;94118;ST;0;NULL;2016-09-15;San Francisco;Trulia;NULL
+$1,200,000;1478 sqft;323AA 7th Ave #3,94118;7TH;323AA;94118;AVE;1;#3;2016-09-14;San Francisco;Trulia;NULL
+$2,550,000;2350 sqft;124 9th Ave,94118;9TH;124;94118;AVE;0;NULL;2016-09-13;San Francisco;Trulia;NULL
+$3,200,000;3200 sqft;822 Lake St,94118;LAKE;822;94118;ST;0;NULL;2016-09-12;San Francisco;Trulia;NULL
+$2,005,000;1950 sqft;655 10th Ave,94118;10TH;655;94118;AVE;0;NULL;2016-09-12;San Francisco;Trulia;NULL
+$1,695,000;2247 sqft;135 12th Ave,94118;12TH;135;94118;AVE;0;NULL;2016-09-01;San Francisco;Trulia;NULL
+$1,025,000;1536 sqft;732 15th Ave,94118;15TH;732;94118;AVE;0;NULL;2016-09-01;San Francisco;Trulia;NULL
+$2,006,000;4179 sqft;519 2nd Ave,94118;2ND;519;94118;AVE;0;NULL;2016-08-31;San Francisco;Trulia;NULL
+$1,250,000;1180 sqft;3326 California St #1,94118;CALIFORNIA;3326;94118;ST;1;#1;2016-08-29;San Francisco;Trulia;NULL
+$1,200,000;956 sqft;245 Stanyan St,94118;STANYAN;245;94118;ST;0;NULL;2016-08-26;San Francisco;Trulia;NULL
+$3,800,000;2600 sqft;115 Walnut St,94118;WALNUT;115;94118;ST;0;NULL;2016-08-26;San Francisco;Trulia;NULL
+$1,250,000;1225 sqft;708 Arguello Blvd,94118;ARGUELLO;708;94118;BLVD;0;NULL;2016-08-22;San Francisco;Trulia;NULL
+$1,710,000;4460 sqft;432 Laurel St,94118;LAUREL;432;94118;ST;0;NULL;2016-08-22;San Francisco;Trulia;NULL
+$1,395,000;1700 sqft;421 Spruce St,94118;SPRUCE;421;94118;ST;0;NULL;2016-08-11;San Francisco;Trulia;NULL
+$650,000;1,172 sqft;1344 Balboa St #3,94118;BALBOA;1344;94118;ST;1;#3;2016-08-05;San Francisco;Trulia;NULL
+$4,825,000;3500 sqft;158 8th Ave,94118;8TH;158;94118;AVE;0;NULL;2016-08-05;San Francisco;Trulia;NULL
+$1,875,000;1591 sqft;40 Annapolis Ter,94118;ANNAPOLIS;40;94118;TER;0;NULL;2016-08-04;San Francisco;Trulia;NULL
+$1,200,000;1250 sqft;763 Spruce St #1,94118;SPRUCE;763;94118;ST;1;#1;2016-08-03;San Francisco;Trulia;NULL
+$2,400,000;440 sqft;624 12th Ave,94118;12TH;624;94118;AVE;0;NULL;2016-08-02;San Francisco;Trulia;NULL
+$2,450,000;2384 sqft;252 16th Ave,94118;16TH;252;94118;AVE;0;NULL;2016-08-01;San Francisco;Trulia;NULL
+$2,350,000;2400 sqft;283 10th Ave,94118;10TH;283;94118;AVE;0;NULL;2016-07-29;San Francisco;Trulia;NULL
+$2,450,000;2212 sqft;184 Palm Ave,94118;PALM;184;94118;AVE;0;NULL;2016-07-29;San Francisco;Trulia;NULL
+$1,625,000;2661 sqft;271 14th Ave,94118;14TH;271;94118;AVE;0;NULL;2016-07-28;San Francisco;Trulia;NULL
+$3,300,000;2551 sqft;555 11th Ave,94118;11TH;555;94118;AVE;0;NULL;2016-07-26;San Francisco;Trulia;NULL
+$2,595,000;2364 sqft;427 14th Ave,94118;14TH;427;94118;AVE;0;NULL;2016-07-25;San Francisco;Trulia;NULL
+$2,310,000;3214 sqft;70 Iris Ave,94118;IRIS;70;94118;AVE;0;NULL;2016-07-22;San Francisco;Trulia;NULL
+$2,875,000;1780 sqft;209 3rd Ave,94118;3RD;209;94118;AVE;0;NULL;2016-04-28;San Francisco;Trulia;NULL
+$730,000;838 sqft;1147 Anza St,94118;ANZA;1147;94118;ST;0;NULL;2016-07-19;San Francisco;Trulia;NULL
+$1,050,000;1026 sqft;656 Arguello Blvd #2,94118;ARGUELLO;656;94118;BLVD;1;#2;2016-07-19;San Francisco;Trulia;NULL
+$2,485,000;4344 sqft;342 8th Ave,94118;8TH;342;94118;AVE;0;NULL;2016-04-14;San Francisco;Trulia;NULL
+$2,850,000;2260 sqft;3487 Washington St,94118;WASHINGTON;3487;94118;ST;0;NULL;2016-04-14;San Francisco;Trulia;NULL
+$1,925,000;2114 sqft;3921 California St,94118;CALIFORNIA;3921;94118;ST;0;NULL;2016-07-08;San Francisco;Trulia;NULL
+$630,000;598 sqft;237 Arguello Blvd #10,94118;ARGUELLO;237;94118;BLVD;1;#10;2016-07-08;San Francisco;Trulia;NULL
+$2,200,000;2360 sqft;771 11th Ave,94118;11TH;771;94118;AVE;0;NULL;2016-07-07;San Francisco;Trulia;NULL
+$1,326,000;3455 sqft;77 Blake St,94118;BLAKE;77;94118;ST;0;NULL;2016-07-07;San Francisco;Trulia;NULL
+$1,900,000;2363 sqft;529 7th Ave,94118;7TH;529;94118;AVE;0;NULL;2016-07-05;San Francisco;Trulia;NULL
+$737,500;659 sqft;2001 McAllister St #313,94118;MCALLISTER;2001;94118;ST;1;#313;2016-07-01;San Francisco;Trulia;NULL
+$1,600,000;1658 sqft;4339 California St #3,94118;CALIFORNIA;4339;94118;ST;1;#3;2016-06-30;San Francisco;Trulia;NULL
+$1,175,000;1335 sqft;2855 Golden Gate Ave,94118;GOLDEN GATE;2855;94118;AVE;0;NULL;2016-06-30;San Francisco;Trulia;NULL
+$865,000;870 sqft;40 Heather Ave,94118;HEATHER;40;94118;AVE;0;NULL;2016-06-30;San Francisco;Trulia;NULL
+$2,900,000;5562 sqft;305 2nd Ave,94118;2ND;305;94118;AVE;0;NULL;2016-03-31;San Francisco;Trulia;NULL
+$2,320,000;2358 sqft;627 6th Ave,94118;6TH;627;94118;AVE;0;NULL;2016-06-28;San Francisco;Trulia;NULL
+$937,000;997 sqft;8 Jordan Ave #10,94118;JORDAN;8;94118;AVE;1;#10;2016-06-22;San Francisco;Trulia;NULL
+$1,930,000;2140 sqft;522 12th Ave,94118;12TH;522;94118;AVE;0;NULL;2016-06-22;San Francisco;Trulia;NULL
+$1,250,000;1362 sqft;150 Palm Ave #1,94118;PALM;150;94118;AVE;1;#1;2016-03-18;San Francisco;Trulia;NULL
+$1,200,000;1209 sqft;146 2nd Ave,94118;2ND;146;94118;AVE;0;NULL;2016-06-14;San Francisco;Trulia;NULL
+$3,300,000;2320 sqft;146 Locust St #6,94118;LOCUST;146;94118;ST;1;#6;2016-06-14;San Francisco;Trulia;NULL
+$845,000;914 sqft;313 2nd Ave #2,94118;2ND;313;94118;AVE;1;#2;2016-06-13;San Francisco;Trulia;NULL
+$890,000;3450 sqft;2484 Fulton St,94118;FULTON;2484;94118;ST;0;NULL;2016-06-13;San Francisco;Trulia;NULL
+$4,500,000;2520 sqft;3953 Sacramento St,94118;SACRAMENTO;3953;94118;ST;0;NULL;2016-06-09;San Francisco;Trulia;NULL
+$1,466,000;2750 sqft;671 6th Ave,94118;6TH;671;94118;AVE;0;NULL;2016-02-29;San Francisco;Trulia;NULL
+$18,000,000;3918 sqft;115 Cherry St,94118;CHERRY;115;94118;ST;0;NULL;2016-06-03;San Francisco;Trulia;NULL
+$1,280,000;2271 sqft;207 6th Ave,94118;6TH;207;94118;AVE;0;NULL;2016-05-25;San Francisco;Trulia;NULL
+$2,700,000;3660 sqft;48 Collins St,94118;COLLINS;48;94118;ST;0;NULL;2016-05-25;San Francisco;Trulia;NULL
+$845,000;1084 sqft;3052 Turk Blvd,94118;TURK;3052;94118;BLVD;0;NULL;2016-05-24;San Francisco;Trulia;NULL
+$1,850,000;1500 sqft;225 Ewing Ter,94118;EWING;225;94118;TER;0;NULL;2016-05-20;San Francisco;Trulia;NULL
+$1,850,000;3600 sqft;635 15th Ave,94118;15TH;635;94118;AVE;0;NULL;2016-05-18;San Francisco;Trulia;NULL
+$2,016,000;2336 sqft;691 2nd Ave,94118;2ND;691;94118;AVE;0;NULL;2016-05-17;San Francisco;Trulia;NULL
+$2,700,000;5150 sqft;464 Funston Ave,94118;FUNSTON;464;94118;AVE;0;NULL;2016-05-17;San Francisco;Trulia;NULL
+$2,700,000;5150 sqft;472 Funston Ave,94118;FUNSTON;472;94118;AVE;0;NULL;2016-05-17;San Francisco;Trulia;NULL
+$1,529,000;1353 sqft;59 Iris Ave,94118;IRIS;59;94118;AVE;0;NULL;2016-05-16;San Francisco;Trulia;NULL
+$4,300,000;4436 sqft;182 Jordan Ave,94118;JORDAN;182;94118;AVE;0;NULL;2016-05-16;San Francisco;Trulia;NULL
+$2,710,000;1947 sqft;3341 Jackson St,94118;JACKSON;3341;94118;ST;0;NULL;2016-05-10;San Francisco;Trulia;NULL
+$1,750,000;1300 sqft;46 Roselyn Ter,94118;ROSELYN;46;94118;TER;0;NULL;2016-05-06;San Francisco;Trulia;NULL
+$749,000;784 sqft;190 Arguello Blvd #1,94118;ARGUELLO;190;94118;BLVD;1;#1;2016-04-27;San Francisco;Trulia;NULL
+$2,500,000;3350 sqft;543 12th Ave,94118;12TH;543;94118;AVE;0;NULL;2016-04-26;San Francisco;Trulia;NULL
+$1,910,000;2050 sqft;618 15th Ave,94118;15TH;618;94118;AVE;0;NULL;2016-04-26;San Francisco;Trulia;NULL
+$814,000;820 sqft;595 12th Ave #12,94118;12TH;595;94118;AVE;1;#12;2016-04-25;San Francisco;Trulia;NULL
+$1,870,000;3180 sqft;670 12th Ave,94118;12TH;670;94118;AVE;0;NULL;2016-04-25;San Francisco;Trulia;NULL
+$1,770,000;2700 sqft;278 11th Ave,94118;11TH;278;94118;AVE;0;NULL;2016-04-22;San Francisco;Trulia;NULL
+$23,600,000;5268 sqft;3756 Jackson St,94118;JACKSON;3756;94118;ST;0;NULL;2016-04-18;San Francisco;Trulia;NULL
+$745,000;658 sqft;2001 McAllister St #134,94118;MCALLISTER;2001;94118;ST;1;#134;2016-04-18;San Francisco;Trulia;NULL
+$1,518,000;2964 sqft;348 5th Ave,94118;5TH;348;94118;AVE;0;NULL;2016-04-18;San Francisco;Trulia;NULL
+$1,400,000;1621 sqft;6500 2nd St #405,94118;2ND;6500;94118;ST;1;#405;2016-04-15;San Francisco;Trulia;NULL
+$925,000;877 sqft;48 Heather Ave,94118;HEATHER;48;94118;AVE;0;NULL;2016-04-15;San Francisco;Trulia;NULL
+$1,800,000;2025 sqft;535 15th Ave,94118;15TH;535;94118;AVE;0;NULL;2016-04-06;San Francisco;Trulia;NULL
+$1,450,000;3400 sqft;369 7th Ave,94118;7TH;369;94118;AVE;0;NULL;2016-04-06;San Francisco;Trulia;NULL
+$1,280,000;1700 sqft;93 Blake St,94118;BLAKE;93;94118;ST;0;NULL;2016-04-05;San Francisco;Trulia;NULL
+$2,900,000;5562 sqft;101 Clement St,94118;CLEMENT;101;94118;ST;0;NULL;2016-03-31;San Francisco;Trulia;NULL
+$1,620,000;1446 sqft;119 9th Ave,94118;9TH;119;94118;AVE;0;NULL;2016-03-29;San Francisco;Trulia;NULL
+$2,800,000;1910 sqft;306 Maple St,94118;MAPLE;306;94118;ST;0;NULL;2016-03-29;San Francisco;Trulia;NULL
+$715,000;874 sqft;621 Arguello Blvd #101,94118;ARGUELLO;621;94118;BLVD;1;#101;2016-03-25;San Francisco;Trulia;NULL
+$1,600,000;3312 sqft;253 5th Ave,94118;5TH;253;94118;AVE;0;NULL;2016-03-23;San Francisco;Trulia;NULL
+$1,750,000;2141 sqft;602 Funston Ave,94118;FUNSTON;602;94118;AVE;0;NULL;2016-03-23;San Francisco;Trulia;NULL
+$1,305,000;1107 sqft;1026 Anza St,94118;ANZA;1026;94118;ST;0;NULL;2016-03-18;San Francisco;Trulia;NULL
+$2,315,000;2695 sqft;625 10th Ave,94118;10TH;625;94118;AVE;0;NULL;2016-03-17;San Francisco;Trulia;NULL
+$1,800,000;1770 sqft;1042 Lake St,94118;LAKE;1042;94118;ST;0;NULL;2016-03-17;San Francisco;Trulia;NULL
+$1,300,000;1308 sqft;163 Wood St #2,94118;WOOD;163;94118;ST;1;#2;2016-03-16;San Francisco;Trulia;NULL
+$1,500,000;1417 sqft;40 Palm Ave,94118;PALM;40;94118;AVE;0;NULL;2016-03-15;San Francisco;Trulia;NULL
+$1,800,000;3750 sqft;531 16th Ave,94118;16TH;531;94118;AVE;0;NULL;2016-03-15;San Francisco;Trulia;NULL
+$720,000;815 sqft;8 Jordan Ave #4,94118;JORDAN;8;94118;AVE;1;#4;2016-03-10;San Francisco;Trulia;NULL
+$725,000;838 sqft;1145 Anza St,94118;ANZA;1145;94118;ST;0;NULL;2016-03-08;San Francisco;Trulia;NULL
+$1,876,000;2050 sqft;720 5th Ave,94118;5TH;720;94118;AVE;0;NULL;2016-03-04;San Francisco;Trulia;NULL
+$2,850,000;2250 sqft;659 7th Ave,94118;7TH;659;94118;AVE;0;NULL;2016-02-26;San Francisco;Trulia;NULL
+$1,750,000;1835 sqft;774 10th Ave,94118;10TH;774;94118;AVE;0;NULL;2016-11-21;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7063593-774-10th-Ave-San-Francisco-CA-94118
+$11,000,000;24015 sqft;4405 California St,94118;CALIFORNIA;4405;94118;ST;0;NULL;2016-11-18;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/1001996836-4405-California-St-San-Francisco-CA-94118
+$1,125,000;1250 sqft;763 Spruce St #2,94118;SPRUCE;763;94118;ST;1;#2;2016-11-17;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7051718-763-Spruce-St-2-San-Francisco-CA-94118
+$2,900,000;1920 sqft;166 11th Ave,94118;11TH;166;94118;AVE;0;NULL;2016-11-17;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7056426-166-11th-Ave-San-Francisco-CA-94118
+$1,300,000;1550 sqft;252 Ewing Ter,94118;EWING;252;94118;TER;0;NULL;2016-11-17;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7052059-252-Ewing-Ter-San-Francisco-CA-94118
+$2,725,000;2554 sqft;141 2nd Ave,94118;2ND;141;94118;AVE;0;NULL;2016-11-15;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/8407734-141-2nd-Ave-San-Francisco-CA-94118
+$1,920,000;2300 sqft;658 15th Ave,94118;15TH;658;94118;AVE;0;NULL;2016-11-14;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7063310-658-15th-Ave-San-Francisco-CA-94118
+$685,000;729 sqft;2480 Fulton St #1,94118;FULTON;2480;94118;ST;1;#1;2016-11-10;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7053144-2480-Fulton-St-1-San-Francisco-CA-94118
+$3,750,000;1604 sqft;228 3rd Ave,94118;3RD;228;94118;AVE;0;NULL;2016-11-07;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/26630490-228-3rd-Ave-San-Francisco-CA-94118
+$2,050,000;1450 sqft;3581 Sacramento St,94118;SACRAMENTO;3581;94118;ST;0;NULL;2016-11-07;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/1275311-3581-Sacramento-St-San-Francisco-CA-94118
+$1,820,000;2816 sqft;572 Funston Ave,94118;FUNSTON;572;94118;AVE;0;NULL;2016-11-04;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7060524-572-Funston-Ave-San-Francisco-CA-94118
+$1,575,000;1762 sqft;97 6th Ave,94118;6TH;97;94118;AVE;0;NULL;2016-11-04;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/8442436-97-6th-Ave-San-Francisco-CA-94118
+$1,406,000;1480 sqft;504 2nd Ave,94118;2ND;504;94118;AVE;0;NULL;2016-11-02;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/26633689-504-2nd-Ave-San-Francisco-CA-94118
+$1,830,000;1975 sqft;64 7th Ave,94118;7TH;64;94118;AVE;0;NULL;2016-11-01;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/8447649-64-7th-Ave-San-Francisco-CA-94118
+$1,520,000;1501 sqft;137 7th Ave,94118;7TH;137;94118;AVE;0;NULL;2016-11-01;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/8441822-137-7th-Ave-San-Francisco-CA-94118
+$2,100,000;1936 sqft;3878 Clay St,94118;CLAY;3878;94118;ST;0;NULL;2016-05-27;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7049920-3878-Clay-St-San-Francisco-CA-94118
+$2,400,000;3436 sqft;1514 Lake St,94118;LAKE;1514;94118;ST;0;NULL;2016-05-27;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7056133-1514-Lake-St-San-Francisco-CA-94118
+$2,705,000;3315 sqft;512 10th Ave,94118;10TH;512;94118;AVE;0;NULL;2016-05-26;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7060412-512-10th-Ave-San-Francisco-CA-94118
+$4,200,000;2980 sqft;112 Commonwealth Ave,94118;COMMONWEALTH;112;94118;AVE;0;NULL;2016-05-26;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7051385-112-Commonwealth-Ave-San-Francisco-CA-94118
+$1,930,000;1525 sqft;426 8th Ave,94118;8TH;426;94118;AVE;0;NULL;2016-05-12;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/26633467-426-8th-Ave-San-Francisco-CA-94118
+$2,600,000;5061 sqft;469 14th Ave,94118;14TH;469;94118;AVE;0;NULL;2016-04-06;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/8431157-469-14th-Ave-San-Francisco-CA-94118
+$2,510,000;1190 sqft;1120 Anza St,94118;ANZA;1120;94118;ST;0;NULL;2016-07-21;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/7060317-1120-Anza-St-San-Francisco-CA-94118
+$16,666,666;3356 sqft;3233 Jackson St #1,94118;JACKSON;3233;94118;ST;1;#1;2016-07-15;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/1275295-3233-Jackson-St-1-San-Francisco-CA-94118
+$3,990,000;3352 sqft;42 6th Ave,94118;6TH;42;94118;AVE;0;NULL;2016-07-15;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/26628206-42-6th-Ave-San-Francisco-CA-94118
+$1,500,000;1220 sqft;726 7th Ave,94118;7TH;726;94118;AVE;0;NULL;2016-11-22;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/26638014-726-7th-Ave-San-Francisco-CA-94118
+$2,100,000;1519 sqft;3579 Sacramento St,94118;SACRAMENTO;3579;94118;ST;0;NULL;2016-04-12;San Francisco;Trulia;https://www.trulia.com/homes/California/San_Francisco/sold/1275312-3579-Sacramento-St-San-Francisco-CA-94118

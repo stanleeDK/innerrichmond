@@ -1,0 +1,488 @@
+value;size;streetname;streetnum;streettype;unitnum;sold_at;zipcode
+$939,000 ;2 bd\
+              1 ba\
+              820 sq ft;ARGUELLO;112;BLVD;#6;2016-11-18;94118
+$570,000 ;1 bd\
+              1 ba;2ND;716;AVE;#8;2016-11-18;94118
+$1,300,000 ;3 bd\
+              2 ba\
+              1,550 sq ft\
+              2,178 sq ft lot;EWING;252;TER;NULL;2016-11-17;94118
+$1,125,000 ;4 bd\
+              2 ba\
+              1,250 sq ft;SPRUCE;763;ST;#2;2016-11-17;94118
+$1,973,270 ;7 bd\
+              4 ba\
+              3,400 sq ft\
+              3,049 sq ft lot;6TH;658;AVE;NULL;2016-11-15;94118
+$1,920,000 ;3 bd\
+              2 ba\
+              2,300 sq ft\
+              3,049 sq ft lot;15TH;658;AVE;NULL;2016-11-14;94118
+$685,000 ;1 bd\
+              1 ba\
+              729 sq ft;FULTON;2480;ST;#1;2016-11-10;94118
+$3,750,000 ;6 bd\
+              4 ba\
+              3,360 sq ft\
+              3,049 sq ft lot;3RD;228;AVE;NULL;2016-11-07;94118
+$2,050,000 ;3 bd\
+              2 ba\
+              1,450 sq ft;SACRAMENTO;3581;ST;NULL;2016-11-07;94118
+$1,575,000 ;3 bd\
+              2 ba\
+              1,877 sq ft;6TH;97;AVE;NULL;2016-11-04;94118
+$1,820,000 ;4 bd\
+              2 ba\
+              2,816 sq ft\
+              3,049 sq ft lot;FUNSTON;572;AVE;NULL;2016-11-04;94118
+$1,406,000 ;3 bd\
+              1 ba\
+              1,480 sq ft\
+              2,178 sq ft lot;2ND;504;AVE;NULL;2016-11-02;94118
+$1,685,000 ;4 bd\
+              4 ba\
+              3,640 sq ft\
+              2,614 sq ft lot;ANZA;1926;ST;NULL;2016-11-02;94118
+$1,520,000 ;3 bd\
+              2 ba\
+              1,500 sq ft;7TH;137;AVE;NULL;2016-11-01;94118
+$1,830,000 ;3 bd\
+              3 ba\
+              2,375 sq ft;7TH;64;AVE;NULL;2016-11-01;94118
+$9,950,000 ;5 bd\
+              5 ba\
+              6,505 sq ft\
+              3,920 sq ft lot;CLAY;3323-3325;ST;NULL;2016-11-01;94118
+$3,525,000;4 bd\
+              3 ba\
+              2,350 sq ft\
+              3,049 sq ft lot;6TH;76;AVE;NULL;2016-10-31;94118
+$2,750,000;6 bd\
+              4 ba\
+              4,608 sq ft\
+              3,049 sq ft lot;LAKE;1300-1302;ST;NULL;2016-10-28;94118
+$1,950,000;5 bd\
+              3 ba\
+              4,037 sq ft\
+              2,614 sq ft lot;FULTON;3814-16;ST;NULL;2016-10-28;94118
+$2,550,000;4 bd\
+              3 ba\
+              3,425 sq ft\
+              5,227 sq ft lot;EUCLID;730;AVE;NULL;2016-10-28;94118
+$2,850,000;4 bd\
+              4 ba\
+              2,290 sq ft\
+              2,178 sq ft lot;14TH;115;AVE;NULL;2016-10-25;94118
+$1,110,000;2 bd\
+              1 ba\
+              1,275 sq ft;BALBOA;827;ST;NULL;2016-10-25;94118
+$2,010,000;3 bd\
+              3 ba\
+              2,000 sq ft;ARGUELLO;214;BLVD;NULL;2016-10-14;94118
+$2,000,000;4 bd\
+              3 ba\
+              2,933 sq ft;LAKE;1501;ST;NULL;2016-10-12;94118
+$1,740,000;5 bd\
+              3 ba\
+              2,061 sq ft;7TH;535;AVE;NULL;2016-10-06;94118
+$1,359,983;2 bd\
+              2 ba\
+              1,554 sq ft;8TH;182;AVE;NULL;2016-10-04;94118
+$1,500,000;3 bd\
+              1 ba\
+              1,545 sq ft\
+              3,485 sq ft lot;MCALLISTER;2028;ST;NULL;2016-10-04;94118
+$2,100,000;3 bd\
+              3 ba\
+              2,950 sq ft\
+              2,614 sq ft lot;STANYAN;140;ST;NULL;2016-10-03;94118
+$6,300,000 o;5 bd\
+              6 ba\
+              4,352 sq ft;LAUREL;308;ST;NULL;2016-09-30;94118
+$1,499,000 o;3 bd\
+              2 ba\
+              2,150 sq ft;CLAY;3334;ST;NULL;2016-09-29;94118
+$3,600,000 o;5 bd\
+              4 ba\
+              3,698 sq ft;PARKER;64;AVE;NULL;2016-09-26;94118
+$780,000 o;2 bd\
+              2 ba\
+              970 sq ft;8TH;402;AVE;#405;2016-09-23;94118
+$3,400,000 o;4 bd\
+              4 ba\
+              2,868 sq ft\
+              3,049 sq ft lot;PARKER;147;AVE;NULL;2016-09-20;94118
+NULL;3 bd\
+              3 ba\
+              3,000 sq ft;JACKSON;3369;ST;NULL;2016-12-22;94118
+NULL;2 bd\
+              1 ba\
+              1,525 sq ft;BALBOA;1432;ST;NULL;2016-12-20;94118
+NULL;4 bd\
+              4 ba\
+              2,980 sq ft\
+              3,485 sq ft lot;FUNSTON;584;AVE;NULL;2016-12-16;94118
+NULL;8 bd\
+              6 ba\
+              3,800 sq ft\
+              3,049 sq ft lot;4TH;473;AVE;NULL;2016-12-15;94118
+NULL;4 bd\
+              4 ba\
+              2,806 sq ft;PALM;117;AVE;NULL;2016-12-14;94118
+NULL;5 bd\
+              4 ba\
+              2,996 sq ft\
+              3,049 sq ft lot;5TH;547-549;AVE;NULL;2016-12-14;94118
+NULL;2 bd\
+              2 ba\
+              943 sq ft;16TH;724;AVE;#6;2016-12-14;94118
+NULL;4 bd\
+              2 ba\
+              1,910 sq ft\
+              2,614 sq ft lot;CABRILLO;730;ST;NULL;2016-12-14;94118
+NULL;3 bd\
+              3 ba\
+              2,303 sq ft\
+              2,178 sq ft lot;CALIFORNIA;4639;ST;NULL;2016-12-09;94118
+NULL;3 bd\
+              1 ba\
+              2,100 sq ft\
+              3,049 sq ft lot;10TH;218;AVE;NULL;2016-12-09;94118
+NULL;3 bd\
+              2 ba\
+              2,300 sq ft\
+              1,742 sq ft lot;16TH;610;AVE;NULL;2016-12-09;94118
+NULL;1 bd\
+              1 ba\
+              679 sq ft;MCALLISTER;2001;ST;#333;2016-12-08;94118
+NULL;4 bd\
+              3 ba\
+              1,780 sq ft\
+              3,485 sq ft lot;SACRAMENTO;3941;ST;NULL;2016-12-07;94118
+NULL;3 bd\
+              3 ba\
+              2,485 sq ft;ARGUELLO;371;BLVD;NULL;2016-12-05;94118
+NULL;3 bd\
+              2 ba\
+              1,933 sq ft;SACRAMENTO;3439;ST;#402;2016-12-05;94118
+NULL;2 bd\
+              3 ba\
+              1,373 sq ft;MCALLISTER;2001;ST;#142;2016-12-01;94118
+NULL;2 bd\
+              1 ba\
+              792 sq ft;ARGUELLO;237;BLVD;#4;2016-11-30;94118
+NULL;2 bd\
+              2 ba\
+              1,264 sq ft;CLEMENT;741;ST;#201;2016-11-29;94118
+NULL;4 bd\
+              3 ba\
+              3,412 sq ft;LAKE;147;ST;NULL;2016-11-29;94118
+NULL;2 bd\
+              1 ba\
+              1,151 sq ft;BALBOA;829;ST;NULL;2016-11-28;94118
+NULL;0 bd\
+              4,040 sq ft\
+              3,485 sq ft lot;CALIFORNIA;3848-3850;ST;NULL;2016-11-23;94118
+NULL;3 bd\
+              2 ba\
+              1,659 sq ft\
+              3,049 sq ft lot;7TH;726;AVE;NULL;2016-11-22;94118
+NULL;5,850 sq ft\
+              2,178 sq ft lot;GEARY;4652;BLVD;NULL;2016-11-22;94118
+NULL;3 bd\
+              2 ba\
+              1,874 sq ft\
+              3,049 sq ft lot;10TH;774;AVE;NULL;2016-11-21;94118
+NULL;24,015 sq ft\
+              0.28 acres lot;CALIFORNIA;4405;ST;#4429;2016-11-18;94118
+NULL;2 bd\
+              1 ba\
+              815 sq ft\
+              2,674 sq ft lot;ARGUELLO;112;BLVD;#3;2016-11-18;94118
+NULL;1 bd\
+              1 ba\
+              5,110 sq ft\
+              3,500 sq ft lot;2ND;716;AVE;#2;2016-11-18;94118
+NULL;3 bd\
+              3 ba\
+              1,920 sq ft\
+              3,000 sq ft lot;11TH;166;AVE;NULL;2016-11-17;94118
+NULL;2 ba\
+              2,800 sq ft\
+              3,000 sq ft lot;9TH;734-736;AVE;NULL;2016-11-17;94118
+NULL;3 bd\
+              4 ba\
+              2,645 sq ft\
+              3,049 sq ft lot;2ND;141;AVE;NULL;2016-11-15;94118
+NULL;3 bd\
+              2 ba\
+              2,392 sq ft\
+              2,178 sq ft lot;15TH;110;AVE;NULL;2016-11-15;94118
+NULL;3 ba\
+              3,400 sq ft\
+              3,000 sq ft lot;6TH;658-660;AVE;NULL;2016-11-15;94118
+NULL;2 ba\
+              3,234 sq ft\
+              4,748 sq ft lot;JORDAN;90;AVE;NULL;2016-10-21;94118
+NULL;4 ba\
+              3,180 sq ft\
+              2,500 sq ft lot;ANZA;2502;ST;#2508;2016-10-17;94118
+NULL;7 bd\
+              5 ba\
+              4,512 sq ft;PRESIDIO;27;TER;NULL;2016-10-11;94118
+NULL;2 ba\
+              2,672 sq ft\
+              2,073 sq ft lot;MASONIC;149-151;AVE;NULL;2016-10-11;94118
+NULL;2 bd\
+              2 ba\
+              895 sq ft;PARKER;28;AVE;#201;2016-10-09;94118
+NULL;12 ba\
+              7,350 sq ft\
+              4,356 sq ft lot;10TH;337;AVE;NULL;2016-10-07;94118
+NULL;4 bd\
+              3 ba\
+              3,090 sq ft\
+              3,920 sq ft lot;COMMONWEALTH;36;AVE;NULL;2016-10-07;94118
+NULL;18,054 sq ft\
+              9,000 sq ft lot;6TH;310;AVE;NULL;2016-10-07;94118
+NULL;4 bd\
+              3 ba\
+              2,214 sq ft;SPRUCE;310;ST;NULL;2016-10-07;94118
+NULL;2 bd\
+              2 ba\
+              13,632 sq ft\
+              5,510 sq ft lot;PARKER;28;AVE;#104;2016-10-07;94118
+NULL;2 bd\
+              2 ba\
+              1,283 sq ft\
+              5,107 sq ft lot;CLAY;3330;ST;#C;2016-09-30;94118
+NULL;6 ba\
+              7,065 sq ft\
+              2,748 sq ft lot;14TH;195;AVE;NULL;2016-09-30;94118
+NULL;2 bd\
+              2 ba\
+              937 sq ft;COOK;137;ST;#3;2016-09-16;94118
+NULL;4 bd\
+              4 ba\
+              2,350 sq ft;9TH;124;AVE;NULL;2016-09-15;94118
+NULL;2 ba\
+              2,580 sq ft\
+              3,049 sq ft lot;11TH;261-263;AVE;NULL;2016-09-15;94118
+NULL;6 bd\
+              3 ba\
+              2,576 sq ft\
+              2,147 sq ft lot;MCALLISTER;2656-2658;ST;NULL;2016-09-15;94118
+NULL;3 bd\
+              2 ba\
+              1,570 sq ft;7TH;323A;AVE;#3;2016-09-14;94118
+NULL;3 bd\
+              4 ba\
+              3,200 sq ft\
+              2,178 sq ft lot;LAKE;822;ST;NULL;2016-09-12;94118
+NULL;3 bd\
+              2 ba\
+              1,950 sq ft\
+              3,049 sq ft lot;10TH;655;AVE;NULL;2016-09-12;94118
+NULL;6 ba\
+              4,260 sq ft\
+              3,049 sq ft lot;WOOD;147;ST;NULL;2016-09-09;94118
+NULL;4 bd\
+              3 ba\
+              2,281 sq ft;CLAY;3441;ST;NULL;2016-09-07;94118
+NULL;5 ba\
+              7,080 sq ft\
+              3,828 sq ft lot;CLAY;3441-3445;ST;NULL;2016-09-07;94118
+NULL;3 bd\
+              4 ba\
+              2,600 sq ft\
+              3,485 sq ft lot;WALNUT;115;ST;NULL;2016-09-02;94118
+NULL;3 bd\
+              2 ba\
+              1,782 sq ft;12TH;135;AVE;NULL;2016-09-01;94118
+NULL;2 bd\
+              1 ba\
+              1,536 sq ft;15TH;732;AVE;NULL;2016-09-01;94118
+NULL;4 bd\
+              4 ba\
+              2,232 sq ft;2ND;519;AVE;NULL;2016-08-31;94118
+NULL;2 bd\
+              2 ba\
+              1,180 sq ft;CALIFORNIA;3326;ST;#1;2016-08-29;94118
+NULL;3 ba\
+              4,470 sq ft\
+              3,485 sq ft lot;WASHINGTON;3959-3961;ST;NULL;2016-08-29;94118
+NULL;2 bd\
+              1 ba\
+              956 sq ft\
+              2,221 sq ft lot;STANYAN;245;ST;NULL;2016-08-26;94118
+NULL;2 bd\
+              2 ba;LAUREL;432;ST;NULL;2016-08-22;94118
+NULL;2 bd\
+              2 ba\
+              1,225 sq ft;ARGUELLO;708;BLVD;NULL;2016-08-22;94118
+NULL;4 ba\
+              4,460 sq ft\
+              3,436 sq ft lot;LAUREL;432-436;ST;NULL;2016-08-22;94118
+NULL;2 bd\
+              2 ba\
+              1,138 sq ft\
+              3,097 sq ft lot;BEAUMONT;126;AVE;NULL;2016-08-19;94118
+NULL;2 ba\
+              2,280 sq ft\
+              3,049 sq ft lot;COOK;54-56;ST;NULL;2016-08-16;94118
+NULL;2 bd\
+              2 ba\
+              1,550 sq ft\
+              2,500 sq ft lot;LAKE;1332;ST;NULL;2016-08-16;94118
+NULL;5 bd\
+              2 ba\
+              2,788 sq ft;LAKE;425;ST;NULL;2016-08-15;94118
+NULL;3 bd\
+              3 ba\
+              1,795 sq ft;3RD;673;AVE;NULL;2016-08-12;94118
+NULL;2 bd\
+              2 ba\
+              1,700 sq ft;SPRUCE;421;ST;NULL;2016-08-11;94118
+NULL;2 ba\
+              2,278 sq ft\
+              2,761 sq ft lot;STANYAN;89-91;ST;NULL;2016-08-10;94118
+NULL;3 ba\
+              3,740 sq ft\
+              3,049 sq ft lot;7TH;159-161;AVE;NULL;2016-08-09;94118
+NULL;4 bd\
+              4 ba\
+              3,049 sq ft lot;8TH;158;AVE;NULL;2016-08-05;94118
+NULL;5 bd\
+              2 ba\
+              3,500 sq ft\
+              2,996 sq ft lot;8TH;158-160;AVE;NULL;2016-08-05;94118
+NULL;1,172 sq ft;BALBOA;1344;ST;#3;2016-08-05;94118
+NULL;3 bd\
+              3 ba\
+              1,840 sq ft;ANNAPOLIS;40;TER;NULL;2016-08-04;94118
+NULL;3 bd\
+              2 ba\
+              1,250 sq ft;SPRUCE;763;ST;#1;2016-08-03;94118
+NULL;3 bd\
+              2+ ba\
+              2,440 sq ft\
+              3,049 sq ft lot;12TH;624;AVE;NULL;2016-08-02;94118
+NULL;4 bd\
+              4 ba\
+              3,064 sq ft\
+              3,485 sq ft lot;16TH;252;AVE;NULL;2016-08-01;94118
+NULL;4 bd\
+              4 ba\
+              2,655 sq ft\
+              3,485 sq ft lot;PALM;184;AVE;NULL;2016-07-30;94118
+NULL;4 bd\
+              3 ba\
+              2,659 sq ft;10TH;283;AVE;NULL;2016-07-29;94118
+NULL;2 ba\
+              2,661 sq ft\
+              3,184 sq ft lot;14TH;271;AVE;NULL;2016-07-28;94118
+NULL;4 bd\
+              4 ba\
+              3,000 sq ft\
+              2,614 sq ft lot;14TH;427;AVE;NULL;2016-07-27;94118
+NULL;4 bd\
+              4 ba\
+              3,290 sq ft\
+              3,049 sq ft lot;11TH;555;AVE;NULL;2016-07-26;94118
+NULL;2 bd\
+              2 ba\
+              1,130 sq ft;7TH;183;AVE;NULL;2016-07-25;94118
+NULL;6 ba\
+              8,585 sq ft\
+              2,992 sq ft lot;7TH;181-185;AVE;NULL;2016-07-25;94118
+NULL;2 ba\
+              3,214 sq ft\
+              3,920 sq ft lot;IRIS;70-72;AVE;NULL;2016-07-22;94118
+NULL;4 bd\
+              4 ba\
+              2,825 sq ft\
+              2,178 sq ft lot;ANZA;1120;ST;NULL;2016-07-21;94118
+NULL;2 bd\
+              2 ba\
+              1,026 sq ft;ARGUELLO;656;BLVD;#2;2016-07-19;94118
+NULL;1 bd\
+              1 ba\
+              838 sq ft;ANZA;1147;ST;NULL;2016-07-19;94118
+NULL;4 bd\
+              4 ba\
+              3,356 sq ft;JACKSON;3233;ST;#1;2016-07-15;94118
+NULL;4 bd\
+              4 ba\
+              3,352 sq ft\
+              3,837 sq ft lot;6TH;42;AVE;NULL;2016-07-15;94118
+NULL;14 bd\
+              11 ba\
+              20,516 sq ft\
+              0.66 acres lot;WASHINGTON;3800-3810;ST;NULL;2016-07-14;94118
+NULL;5 bd\
+              3 ba\
+              4,040 sq ft\
+              4,464 sq ft lot;JACKSON;3421;ST;NULL;2016-07-14;94118
+NULL;0 bd\
+              1 ba\
+              598 sq ft;ARGUELLO;237;BLVD;#10;2016-07-08;94118
+NULL;1 bd\
+              1 ba\
+              655 sq ft;MCALLISTER;2001;ST;#12;2016-07-08;94118
+NULL;1 bd\
+              1 ba\
+              950 sq ft;LAKE;1307;ST;NULL;2016-07-08;94118
+NULL;3 bd\
+              3 ba\
+              2,360 sq ft\
+              3,049 sq ft lot;11TH;771;AVE;NULL;2016-07-07;94118
+NULL;2 ba\
+              3,455 sq ft\
+              3219.0 acres lot;BLAKE;77;ST;NULL;2016-07-07;94118
+NULL;;GEARY;3501;BLVD;NULL;2016-07-06;94118
+NULL;5 bd\
+              3 ba\
+              905 sq ft;7TH;529;AVE;NULL;2016-07-05;94118
+NULL;3 bd\
+              4 ba\
+              2,525 sq ft\
+              4,356 sq ft lot;LAUREL;555;ST;NULL;2016-07-01;94118
+NULL;3 bd\
+              2 ba\
+              1,533 sq ft;BEAUMONT;67;AVE;NULL;2016-07-01;94118
+NULL;1 bd\
+              1 ba\
+              659 sq ft;MCALLISTER;2001;ST;#313;2016-07-01;94118
+NULL;7 bd\
+              5 ba\
+              3,879 sq ft\
+              2,809 sq ft lot;BEAUMONT;65-67;AVE;NULL;2016-07-01;94118
+NULL;5 bd\
+              5 ba\
+              5,825 sq ft\
+              3,049 sq ft lot;MAPLE;101;ST;NULL;2016-06-30;94118
+NULL;2 bd\
+              1 ba\
+              1,270 sq ft;ARGUELLO;590;BLVD;NULL;2016-06-30;94118
+NULL;4 bd\
+              2 ba\
+              1,658 sq ft;CALIFORNIA;4339;ST;#3;2016-06-30;94118
+NULL;1 bd\
+              1 ba\
+              870 sq ft\
+              3,563 sq ft lot;HEATHER;40;AVE;NULL;2016-06-30;94118
+NULL;3 bd\
+              1 ba\
+              1,335 sq ft;GOLDEN GATE;2855;AVE;NULL;2016-06-30;94118
+NULL;2 bd\
+              2 ba\
+              1,525 sq ft;16TH;772;AVE;NULL;2016-06-29;94118
+NULL;5 bd\
+              4 ba\
+              2,358 sq ft\
+              3,049 sq ft lot;6TH;627;AVE;NULL;2016-06-28;94118
+NULL;3 bd\
+              1 ba\
+              1,250 sq ft\
+              3,000 sq ft lot;7TH;734;AVE;NULL;2016-06-28;94118
