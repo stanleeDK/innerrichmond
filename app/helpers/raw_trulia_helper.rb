@@ -1,0 +1,2 @@
+module RawTruliaHelper
+end

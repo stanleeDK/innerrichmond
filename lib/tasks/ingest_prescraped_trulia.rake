@@ -2,6 +2,19 @@ require 'csv'
 
 namespace :db do 
 	desc "Grab stuff from a raw trulia file"
+	task :scrape_trulia_into_ingest_table => :environment do
+
+		puts "scrape trulia and put into a csv file"
+		# csv format 
+		# value;size;address;streetname;streetnum;zipcode;streettype;apartment;unitnum;sold_at;city;source;property_page_url
+
+	end 
+end 
+
+
+
+namespace :db do 
+	desc "Grab stuff from a raw trulia file"
 	task :ingest_raw_trulia_csv => :environment do
 		counter = 1
 		CSV.foreach("#{Dir.home}/Dropbox/Your Code/Ruby/innerrichmond/db/trulia_94118.csv",headers:true,col_sep:";") do |row|
@@ -38,7 +51,7 @@ namespace :db do
 				puts "#{counter} not saved"
 			end
 			counter 	= counter + 1 
-			
+
 			# if counter == 2 then exit end 
 
 		end

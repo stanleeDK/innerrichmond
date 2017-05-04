@@ -2,7 +2,13 @@ Apr 23
 - creaetd a rake task to ingest raw csvs. This instance is for trulia, but can be extended. 
 - use rake tasks to kick off scraping from now on. The scraping scripts will populate intermediary ingestion tables and a future process will map it to an actual properties table after a match has been attempted with the official addresses table 
 
-- next steps 
-- get a postgres ui working to validate data
+May 2nd 
 - hook up trulia scraper to rake and start getting new data for the trulia ingest table
+- every time you scrape, I think you should create a new csv for each scrape that way you can check for errors before publishing to production. Put the csv into the ingested_trulia_properties table 
+
+
+
+
+- next steps 
 - create core property model and child listing and recent_sales models. 
+- get a postgres ui working to validate data (just use \x to see the data in the terminal)
