@@ -1,3 +1,18 @@
+brew services start postgresql
+brew services stop postgresql
+
+SCRAPING APPROACH
+1. For each source create a scraper that writes to a csv file, trigger via rake
+2. For each source, create a rake function to move the csv data into the relevant source's data table (one trulia table, on realtor.com table etc)
+3. By giving each scrape/ingest-from-csv a number, we can then use a rake function to 
+	3a. compare the new sales data to the repository of official addresses
+	3b. if there's no official address, then add it 
+	3c. add the sale history to the history table 
+
+At step 2. we need to normalize addresses into the official addresses format so the matching becomes easy down stream. This means
+1. capitalizing 
+2. breaking things out into street_name, address_number, street_type 
+
 Apr 23 
 - creaetd a rake task to ingest raw csvs. This instance is for trulia, but can be extended. 
 - use rake tasks to kick off scraping from now on. The scraping scripts will populate intermediary ingestion tables and a future process will map it to an actual properties table after a match has been attempted with the official addresses table 
@@ -8,7 +23,28 @@ May 2nd
 
 
 
+May 3rd 
+NEXT STEPS 
+- match trulia recent sales to the official list of addresses, if no match then 
+	- add the new address to the official tables db 
+	
+	- create an innerrichmond.com sales history table and record the recent sale from trulia there
 
-- next steps 
+	- 
+
 - create core property model and child listing and recent_sales models. 
 - get a postgres ui working to validate data (just use \x to see the data in the terminal)
+
+
+Migrations
+1. Official addresses table - add a column to show where a new address has been added from 
+2. In the source ingest tables, add a column to represent the scrape id. 
+
+Sales History
+1. id 
+2. official_address_id
+3. value 
+4. date
+5. size 
+6. source (trulia/realtor/ other?)
+7. source_id (foreign key into the raw ingest table)

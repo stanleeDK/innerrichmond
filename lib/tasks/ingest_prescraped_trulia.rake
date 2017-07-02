@@ -1,12 +1,35 @@
+
+
 require 'csv'
+
+
 
 namespace :db do 
 	desc "Grab stuff from a raw trulia file"
-	task :scrape_trulia_into_ingest_table => :environment do
+	task :match_trulia_to_official => :environment do
 
 		puts "scrape trulia and put into a csv file"
 		# csv format 
 		# value;size;address;streetname;streetnum;zipcode;streettype;apartment;unitnum;sold_at;city;source;property_page_url
+		
+		count = 1
+		IngestedTruliaProperty.all.each do |prop|
+			
+			
+			matches = OfficialAddress.where(street_name: prop.street_name,street_type: prop.street_type, address_number: prop.address_number)
+
+			if matches.length > 1 
+				puts "#{count} #{prop.address} #{matches.length} more than one"
+			elsif matches.length == 0 
+				puts "#{count} #{prop.address} no match" 
+			else
+				# puts "#{count} #{prop.address} #{matches[0].address} " 
+				puts "#{count}" 
+			end 
+
+			count = count + 1
+		end 
+
 
 	end 
 end 
@@ -28,9 +51,10 @@ namespace :db do
 			property["address"] = property["address"].split(",")[0]
 			property["size"] 	= property["size"].delete(" sqft")
 			property["city"]	= property["city"].delete(",CA/")
+			property["unitnum"]	= property["unitnum"].delete("#")
+
 			puts "---------------"
 			# puts property
-
 
 			trulia 					= IngestedTruliaProperty.new 
 			trulia.address 			= property["address"]

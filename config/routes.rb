@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   root 'staticpages#home_page'
-  get 'test' => 'raw_trulia#show'
+  get 'raw/trulia' => 'raw_trulia#show'
 
   # get '/', to: 'staticpages#home_page'
 
