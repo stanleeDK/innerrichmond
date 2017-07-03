@@ -1,6 +1,44 @@
-Hello World
+<!-- <%= debug @officialaddresses %> -->
+<!-- <form action="#" >
+	<input type="text" class="form-control" id="officialAddressSearch" onkeypress="search(event)">
+</form>
+ -->
+</br>
+ <p>
+ <select id="propertyautocomplete" class="js-example-responsive" style="width: 50%" placeholder="Look Up Address">
+ 	
+ </select>
+ </p>
+ </br>
 
-</br>
-</br>
-</br>
 <a href="raw/trulia">Raw Trulia Data</a>
+
+<script type="text/javascript">
+	// $(document).ready(function() {
+	$("#propertyautocomplete").select2({
+		placeholder: "Find an address",
+		allowClear: true,
+		delay: 800,
+		cache: true,
+		ajax: {
+			url: "/searchaddresses",
+			dataType: 'json',
+			data: function (params){
+				return{ searchterm: params.term}
+			},
+			processResults: function(data){
+				return {
+        				results: $.map(data, function(obj) {
+            				return { id: obj.id, text: obj.address };
+        				})
+    			};
+			}
+
+		}
+	});
+	// });
+
+
+
+
+</script>
