@@ -1,5 +1,6 @@
 brew services start postgresql
-brew services stop postgresql
+brew services stopke postgresql
+https://www.trulia.com/real_estate/Inner_Richmond-San_Francisco/1423/market-trends/
 
 SCRAPING APPROACH
 1. For each source create a scraper that writes to a csv file, trigger via rake
@@ -24,27 +25,38 @@ May 2nd
 
 
 May 3rd 
+
+
+July 1st
+- added support for bootstrap by 
+	- gem filing gem 'bootstrap-sass', '3.3.7' and then bundle install commanding 
+	- change /assets/stylesheet/application.css to /application.sccs. Added @import "bootstrap-sprockets"; @import "bootstrap"; to invoke bootstrap in all 		views 
+	- added google font support 
+	- added custom css to the application.sccs file 
+
+- Added pgsearch (gem and reference in official_addresses.rb) for autocomplete  (https://www.sitepoint.com/search-autocomplete-rails-apps/)
+
+July 2nd 
 NEXT STEPS 
-- match trulia recent sales to the official list of addresses, if no match then 
+- In the rake task match trulia recent sales to the official list of addresses, if no match then 
 	- add the new address to the official tables db 
-	
 	- create an innerrichmond.com sales history table and record the recent sale from trulia there
-
-	- 
-
 - create core property model and child listing and recent_sales models. 
 - get a postgres ui working to validate data (just use \x to see the data in the terminal)
 
+	--------------------
+Migrations to create
+	1. Official addresses table - add a column to show where a new address has been added from 
+	2. In the source ingest tables, add a column to represent the scrape id. 
+https://blog.revillweb.com/bootstrap-tutorial-a-responsive-design-tutorial-with-twitter-bootstrap-3-cb6445c1e586
 
-Migrations
-1. Official addresses table - add a column to show where a new address has been added from 
-2. In the source ingest tables, add a column to represent the scrape id. 
-
-Sales History
-1. id 
-2. official_address_id
-3. value 
-4. date
-5. size 
-6. source (trulia/realtor/ other?)
-7. source_id (foreign key into the raw ingest table)
+-----------------------------------------------------------------------------
+Data Models
+	Sales History
+	1. id 
+	2. official_address_id
+	3. value 
+	4. date
+	5. size 
+	6. source (trulia/realtor/ other?)
+	7. source_id (foreign key into the raw ingest table)
