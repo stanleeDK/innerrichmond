@@ -23,13 +23,15 @@ namespace :ingest do
 		{
 		  "page": 1,
 		  "per_page": 10000,
+
 		  "providers": {
-		    "care_type_ids": [1,2],
-		    "ages": [36],
-		    "schedule_year_ids": [1],
-		    "schedule_week_ids": [1],
-		    "schedule_day_ids": [2,3,4,5,6],
-		    "neighborhood_ids": [37]
+		  	"provider_id": 3
+		    # "care_type_ids": [1,2],
+		    # "ages": [36],
+		    # "schedule_year_ids": [1],
+		    # "schedule_week_ids": [1],
+		    # "schedule_day_ids": [2,3,4,5,6],
+		    # "neighborhood_ids": [37]
 		    # "zip_code_ids": [15]
 		  },
 		  "parent": {
@@ -48,16 +50,18 @@ namespace :ingest do
 		    "Accept" 		=> "application/json"
 		}
 
-		puts args.nghb
-		puts params[:providers][:neighborhood_ids]
-		params[:providers][:neighborhood_ids] = args.nghb
-		puts params[:providers][:neighborhood_ids]
+		# grap parameters from the rake task command run in terminal, e.g. feed in neighbourhood id
+		# puts args.nghb
+		# puts params[:providers][:neighborhood_ids]
+		# params[:providers][:neighborhood_ids] = args.nghb
+		# puts params[:providers][:neighborhood_ids]
 		# params.each do |k,v|
 		# 	puts "#{k}:#{v}"
 		# end
+
 		response = http.post(uri.path, params.to_json, json_headers)
 		payload = JSON.parse(response.body)
-		# puts JSON.pretty_generate(payload)
+		puts JSON.pretty_generate(payload)
 		# puts payload["total"]
 		# puts payload["providers"].length
 
