@@ -3,11 +3,19 @@ require 'nokogiri'
 require 'net/http'
 require 'json'
 
+namespace :ingest do 
+	desc "scrape_ccsf"
+	task :reset_ccsf_table_ids => :environment do
+		ActiveRecord::Base.connection.reset_pk_sequence!('daycarelicenses')
+		ActiveRecord::Base.connection.reset_pk_sequence!('daycareproviders')
+		ActiveRecord::Base.connection.reset_pk_sequence!('daycareschedulehours')
+	end 
+end 
 
 namespace :ingest do 
-	desc "scrape_cc_sf"
-	task :scrape_ccsf => :environment do
-
+	desc "scrape_ccsf"
+	task :scrape_ccsf,[:nghb] => :environment do |task,args|
+		
 		uri  = URI.parse('http://childrens-council.dapper.childrenscouncil.org/api/providers')
 		http = Net::HTTP.new(uri.host, uri.port)
 
@@ -17,17 +25,18 @@ namespace :ingest do
 		  "per_page": 10000,
 		  "providers": {
 		    "care_type_ids": [1,2],
-		    "ages": [1],
-		    "schedule_year_ids": [1,2],
-		    "schedule_week_ids": [1,2],
+		    "ages": [36],
+		    "schedule_year_ids": [1],
+		    "schedule_week_ids": [1],
 		    "schedule_day_ids": [2,3,4,5,6],
-		    "zip_code_ids": [1]
+		    "neighborhood_ids": [37]
+		    # "zip_code_ids": [15]
 		  },
 		  "parent": {
-		    "full_name": "Stan Lee",
+		    "full_name": "Stan",
 		    "email": "hbtrial123@gmail.com",
 		    "phone": "",
-		    "home_zip_code": "10036",
+		    "home_zip_code": "10006",
 		    "near_address": "",
 		    "subscribe": false,
 		  }#,
@@ -39,21 +48,42 @@ namespace :ingest do
 		    "Accept" 		=> "application/json"
 		}
 
-
+		puts args.nghb
+		puts params[:providers][:neighborhood_ids]
+		params[:providers][:neighborhood_ids] = args.nghb
+		puts params[:providers][:neighborhood_ids]
+		# params.each do |k,v|
+		# 	puts "#{k}:#{v}"
+		# end
 		response = http.post(uri.path, params.to_json, json_headers)
 		payload = JSON.parse(response.body)
 		# puts JSON.pretty_generate(payload)
 		# puts payload["total"]
 		# puts payload["providers"].length
 
-		payload['providers'].each do |provider|
-			puts provider['name']
+		File.open('payload',"a") do |f|
+			f.write "---------------- \n"
+		end
 
+
+		payload['providers'].each do |provider|
+			
 			dcprovider 					= Daycareprovider.new
 			dcprovider.day_care_provider_id = provider['id']
 			dcprovider.name 			= provider['name']
 			dcprovider.alternate_name 	= provider['alternate_name']
 			dcprovider.contact_name 	= provider['contact_name']
+
+
+			# dcp_dupe_check = Daycareprovider.find_by_id(dcprovider.day_care_provider_id)
+			# if Daycareprovider.exists?(dcprovider.day_care_provider_id)
+			# 	File.open('payload',"a") do |f|
+			# 		f.write dcprovider.day_care_provider_id.to_s + " " + dcprovider.alternate_name.to_s +  " " + dcprovider.name.to_s + "\n" 
+			# 		puts "Dupe: #{provider['name']}"
+			# 	end
+			# 	next
+			# end 
+
 			dcprovider.phone 			= provider['phone']
 			dcprovider.phone_ext 		= provider['phone_ext']
 			dcprovider.phone_other 		= provider['phone_other']
@@ -101,22 +131,34 @@ namespace :ingest do
 			dcprovider.nutrition_program 		= provider['nutrition_program']
 			dcprovider.cached_geocodable_address_string = provider['cached_geocodable_address_string']		
 
-			provider['licenses'].each_with_index do |license,index|
-				ltemp 					= Daycarelicense.new
-				
-				ltemp.ccsf_license_id 	= license['created_at']
-				ltemp.day_care_provider_id 	= license['created_at']
-				ltemp.issue_date 	= license['created_at']
-				ltemp.exempt 	= license['created_at']
-				ltemp.license_type 	= license['created_at']
-				ltemp.state_license_number 	= license['created_at']
-				ltemp.capacity 	= license['created_at']
-				ltemp.exempt 	= license['created_at']
-				ltemp.ccsf_license_id 	= license['created_at']
-				ltemp.day_care_provider_id 	= license['created_at']
-				ltemp.issue_date 	= license['created_at']
-				ltemp.exempt 	= license['created_at']
+			# puts "Not Dupe: #{provider['name']}"
+			dcprovider.save 
+			if dcprovider.errors.any?
+				puts "Dupe: #{dcprovider.name} #{dcprovider.errors.full_messages}"
+			else
+				puts "Saved: #{dcprovider.day_care_provider_id} #{dcprovider.name}"
+			end 
 
+			provider['licenses'].each_with_index do |license,index|
+				
+				ltemp 						= Daycarelicense.new				
+				ltemp.ccsf_license_id 		= license['id']
+				ltemp.day_care_provider_id 	= license['provider_id']
+				ltemp.issue_date 			= license['date']
+				ltemp.exempt 				= license['exempt']
+				ltemp.license_type 			= license['license_type']
+				ltemp.state_license_number 	= license['number']
+				ltemp.capacity				= license['capacity']
+				ltemp.capacity_desired 		= license['capacity_desired']
+				ltemp.capacity_subsidy 		= license['capacity_subsidy']
+				ltemp.age_from_year 		= license['age_from_year']
+				ltemp.age_from_month 		= license['age_from_month']
+				ltemp.age_to_year 			= license['age_to_year']
+				ltemp.age_to_month 			= license['age_to_month']
+				ltemp.vacancies 			= license['vacancies']
+				ltemp.ccsf_created_at 		= license['created_at']
+				ltemp.ccsf_updated_at 		= license['updated_at']
+				
 				ltemp.save
 
 				#save the licenses in a flattened state as well, so you don't need to go into the other table all the time
@@ -127,8 +169,6 @@ namespace :ingest do
 				elsif index == 3
 					dcprovider.license_id_3 = license['number']
 				end 
-					
-				
 			end
 
 			provider['schedule_hours'].each_with_index do |schedulehours,index|
@@ -147,7 +187,7 @@ namespace :ingest do
 				scheduletemp.save 
 			end	
 
-			dcprovider.save 
+			
 		end
 
 	end 

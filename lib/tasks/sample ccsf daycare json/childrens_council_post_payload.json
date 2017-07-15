@@ -1,0 +1,79 @@
+{
+  "page": 2,
+  "per_page": 15,
+  "providers": {
+    "care_type_ids": [
+      1,
+      2
+    ],
+    "ages": [
+      30
+    ],
+    "schedule_year_ids": [
+      1
+    ],
+    "schedule_week_ids": [
+      1
+    ],
+    "schedule_day_ids": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "zip_code_ids": [
+      13
+    ]
+  },
+  "parent": {
+    "full_name": "Stan Lee",
+    "email": "stan.lee@outlook.dk",
+    "phone": "",
+    "home_zip_code": "94118",
+    "near_address": "",
+    "subscribe": false,
+    "parents_care_reasons_attributes": [
+      {
+        "care_reason_id": "2"
+      }
+    ],
+    "parents_care_types_attributes": [
+      {
+        "care_type_id": 1
+      },
+      {
+        "care_type_id": 2
+      }
+    ],
+    "children_attributes": [
+      {
+        "age_months": 30,
+        "children_schedule_days_attributes": [
+          {
+            "schedule_day_id": 2
+          },
+          {
+            "schedule_day_id": 3
+          },
+          {
+            "schedule_day_id": 4
+          },
+          {
+            "schedule_day_id": 5
+          },
+          {
+            "schedule_day_id": 6
+          }
+        ],
+        "children_schedule_weeks_attributes": [
+          {
+            "schedule_week_id": 1
+          }
+        ],
+        "schedule_year_id": 1
+      }
+    ]
+  },
+  "api_key": "77p9a5mo1nwETty6ycJa"
+}
