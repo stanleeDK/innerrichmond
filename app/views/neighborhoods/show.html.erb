@@ -1,0 +1,24 @@
+
+<%= @ngb_name%>
+
+<% @dcps.each do |dcp| %>
+	
+	
+	
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title"><%= dcp.name %></h4>
+    <h6 class="card-subtitle mb-2 text-muted"></h6>
+    <% if dcp.alternate_name.blank? %>
+    	<h6 class="card-subtitle mb-2 text-muted"><%= dcp.address_1 %> <%= dcp.mail_zip_code %></h6>
+    <% else %>
+    	<h6 class="card-subtitle mb-2 text-muted"><%= dcp.alternate_name %>  -  <%= dcp.address_1 %> <%= dcp.mail_zip_code %></h6>
+   	<% end %>
+    <p class="card-text"><%= truncate(dcp.description,:length=> 250) %></p>
+    <a href="#" class="card-link"><%= dcp.phone %> </a>
+    <a href="#" class="card-link"><%= dcp.email %></a>
+  </div>
+</div>	
+<% end %>
+

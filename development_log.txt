@@ -43,6 +43,7 @@ NEXT STEPS
 	- create an innerrichmond.com sales history table and record the recent sale from trulia there
 - create core property model and child listing and recent_sales models. 
 - get a postgres ui working to validate data (just use \x to see the data in the terminal)
+- built an autocomplete with psearch (a postgres search capability) and it's slow as hell
 
 	--------------------
 Migrations to create
@@ -60,3 +61,16 @@ Data Models
 	5. size 
 	6. source (trulia/realtor/ other?)
 	7. source_id (foreign key into the raw ingest table)
+
+
+
+July 15th 
+- Major pivot to daycare 
+- deployed to heroku
+- https://devcenter.heroku.com/articles/getting-started-with-ruby#use-a-database
+
+
+
+
+
+
