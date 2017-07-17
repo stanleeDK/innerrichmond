@@ -22,7 +22,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'bootstrap-sass', '3.3.7'
+# gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+gem 'popper_js'
+gem 'sprockets-rails'
+gem 'tether-rails'
 
 #postgres searching 
 gem 'pg_search'

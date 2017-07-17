@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root 'staticpages#home_page'
   get 'raw/trulia' => 'raw_trulia#show'
   get 'searchaddresses' => 'staticpages#officialaddresses'
+  resources :neighborhoods
 
   # get '/', to: 'staticpages#home_page'
 

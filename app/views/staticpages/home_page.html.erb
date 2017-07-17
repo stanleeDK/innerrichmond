@@ -5,15 +5,15 @@
  -->
 </br>
  <p>
- <select id="propertyautocomplete" class="js-example-responsive" style="width: 50%" placeholder="Look Up Address">
- 	
+ <!-- <select id="propertyautocomplete" class="js-example-responsive" style="width: 50%" placeholder="Look Up Address">
+  -->	
  </select>
  </p>
  </br>
 
-<a href="raw/trulia">Raw Trulia Data</a>
+<!-- <a href="raw/trulia">Raw Trulia Data</a> -->
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	// $(document).ready(function() {
 	$("#propertyautocomplete").select2({
 		placeholder: "Find an address",
@@ -39,6 +39,34 @@
 	// });
 
 
+</script> -->
 
+<% @neighborhoods.each do |dcp| %>
 
-</script>
+	<div class="row">
+	  <div class="col-sm-6">
+
+	    <div class="card">
+	      <div class="card-block">
+	        <h3 class="card-title"><%= link_to dcp.neighborhood_name, neighborhood_path(dcp.neighborhood_id) %></h3>
+	        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+	        <a href="#" class="btn btn-primary">Go somewhere</a>
+	      </div>
+	    </div>
+
+	  </div>
+
+	  <div class="col-sm-6">
+
+	    <div class="card">
+	      <div class="card-block">
+	        <h3 class="card-title"><%= link_to dcp.neighborhood_name, neighborhood_path(dcp.neighborhood_id) %></h3>
+	        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+	        <a href="#" class="btn btn-primary">Go somewhere</a>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+<% end %>
