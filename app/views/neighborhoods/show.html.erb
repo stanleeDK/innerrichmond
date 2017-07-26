@@ -4,21 +4,33 @@
 <% @dcps.each do |dcp| %>
 	
 	
-	
 
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><%= dcp.name %></h4>
-    <h6 class="card-subtitle mb-2 text-muted"></h6>
+
+    <h6 class="card-subtitle mb-2 text-muted">
     <% if dcp.alternate_name.blank? %>
-    	<h6 class="card-subtitle mb-2 text-muted"><%= dcp.address_1 %> <%= dcp.mail_zip_code %></h6>
+    	<%= dcp.address_1 %> <%= dcp.mail_zip_code %>
     <% else %>
-    	<h6 class="card-subtitle mb-2 text-muted"><%= dcp.alternate_name %>  -  <%= dcp.address_1 %> <%= dcp.mail_zip_code %></h6>
+    	<%= dcp.alternate_name %>  -  <%= dcp.address_1 %> <%= dcp.mail_zip_code %>
    	<% end %>
-    <p class="card-text"><%= truncate(dcp.description,:length=> 250) %></p>
-    <a href="#" class="card-link"><%= dcp.phone %> </a>
+    <ul>
+      <li>Number of licenses: <%= dcp.number_of_licenses(dcp.day_care_provider_id) %></li>
+      <li>Capactiy: </li>
+      <li>123</li>
+    </ul>
+    </h6>
+    <h6 class="card-subtitle mb-2 text-muted">
+    </h6>
+
+    <a href="#" class="card-link"><%= number_to_phone(dcp.phone) %> </a>
     <a href="#" class="card-link"><%= dcp.email %></a>
+
+    <p class="card-text"><%= dcp.description %></p>
   </div>
 </div>	
+<%= debug dcp.day_care_provider_id %>
+<%= debug dcp.daycarelicenses %>
 <% end %>
 

@@ -1,4 +1,4 @@
-	INSERT INTO neighborhoods(id,neighborhood_id,neighborhood_name,created_at,updated_at) VALUES 
+INSERT INTO neighborhoods(id,neighborhood_id,neighborhood_name,created_at,updated_at) VALUES 
 (1,1,'Hayes Valley, Tenderloin, North OF Market','2017-07-15 21:15:33.392161','2017-07-15 21:15:33.392161'),
 (4,4,'South of Market (SoMa)','2017-07-15 21:15:33.392161','2017-07-15 21:15:33.392161'),
 (5,5,'Financial District','2017-07-15 21:15:33.392161','2017-07-15 21:15:33.392161'),

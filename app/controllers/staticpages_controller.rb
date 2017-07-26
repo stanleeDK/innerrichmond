@@ -2,6 +2,7 @@ class StaticpagesController < ApplicationController
 
 	def home_page
 		@neighborhoods = Neighborhood.all
+
 	end 
 
 	def officialaddresses #api endpoint for the crappy jquery autocomplete
