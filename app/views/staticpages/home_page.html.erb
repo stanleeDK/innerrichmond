@@ -41,32 +41,29 @@
 
 </script> -->
 
-<% @neighborhoods.each do |dcp| %>
+<% @neighborhoods.each_with_index do |dcp, index| %>
 
+	<% if index % 2 == 0 %>
 	<div class="row">
-	  <div class="col-sm-6">
 
-	    <div class="card">
-	      <div class="card-block">
-	        <h3 class="card-title"><%= link_to dcp.neighborhood_name, neighborhood_path(dcp.neighborhood_id) %></h3>
-	        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-	        <a href="#" class="btn btn-primary">Go somewhere</a>
-	      </div>
-	    </div>
-
-	  </div>
-
-	  <div class="col-sm-6">
-
-	    <div class="card">
-	      <div class="card-block">
-	        <h3 class="card-title"><%= link_to dcp.neighborhood_name, neighborhood_path(dcp.neighborhood_id) %></h3>
-	        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-	        <a href="#" class="btn btn-primary">Go somewhere</a>
-	      </div>
-	    </div>
-
-	  </div>
+		<div class="col-sm-6">
+			<div class="card">
+			  <div class="card-block">
+			    <h3 class="card-title"><%= link_to dcp.neighborhood_name, neighborhood_path(dcp.neighborhood_id) %></h3>
+			    <p class="card-text">Daycares: <%= dcp.day_care_count(dcp.neighborhood_id) %></p>
+			  </div>
+			</div>
+		</div>
+	<% else %>
+		<div class="col-sm-6">
+			<div class="card">
+			  <div class="card-block">
+			    <h3 class="card-title"><%= link_to dcp.neighborhood_name, neighborhood_path(dcp.neighborhood_id) %></h3>
+			    <p class="card-text">Daycares: <%= dcp.day_care_count(dcp.neighborhood_id) %>	</p>		   
+			  </div>
+			</div>
+		</div>
 	</div>
+	<% end %>
 
 <% end %>

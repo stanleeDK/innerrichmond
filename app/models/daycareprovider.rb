@@ -3,6 +3,11 @@ class Daycareprovider < ActiveRecord::Base
 				uniqueness: {:scope => :contact_name, :message => "id: %{value}" }
 
 	belongs_to :neighborhood
+	has_many :daycarelicenses, foreign_key: "day_care_provider_id" 
+
+	def number_of_licenses(id)
+		return Daycarelicense.where(day_care_provider_id: id).size
+	end
 
 	# before_save :return_dupe_message
 

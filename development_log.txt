@@ -2,6 +2,9 @@ brew services start postgresql
 brew services stopke postgresql
 https://www.trulia.com/real_estate/Inner_Richmond-San_Francisco/1423/market-trends/
 
+pull data from production 
+heroku pg:pull DATABASE_URL innerrichmond_development --app innerrichmond
+
 SCRAPING APPROACH
 1. For each source create a scraper that writes to a csv file, trigger via rake
 2. For each source, create a rake function to move the csv data into the relevant source's data table (one trulia table, on realtor.com table etc)
@@ -68,6 +71,7 @@ July 15th
 - Major pivot to daycare 
 - deployed to heroku
 - https://devcenter.heroku.com/articles/getting-started-with-ruby#use-a-database
+
 
 
 

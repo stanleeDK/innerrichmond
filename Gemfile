@@ -10,7 +10,7 @@ gem 'rails', '4.2.6'
 # gem 'mysql2'
 
 # postgres gem 
-gem 'pg'
+gem 'pg', '~> 0.21'
 
 
 
@@ -29,7 +29,7 @@ gem 'sprockets-rails'
 gem 'tether-rails'
 
 #postgres searching 
-gem 'pg_search'
+# gem 'pg_search'
 
 gem 'select2-rails'
 gem 'underscore-rails'
