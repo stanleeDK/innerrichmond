@@ -5,14 +5,14 @@ class StaticpagesController < ApplicationController
 
 	end 
 
-	def officialaddresses #api endpoint for the crappy jquery autocomplete
+	# def officialaddresses #api endpoint for the crappy jquery autocomplete
 		# if params[:searchterm]
-			@officialaddresses = OfficialAddress.search_official_addresses(params[:searchterm])
-			render json: @officialaddresses
+			# @officialaddresses = OfficialAddress.search_official_addresses(params[:searchterm])
+			# render json: @officialaddresses
 		# else
 			# @officialaddresses = OfficialAddress.first(5)
 		# end 		
-	end
+	# end
 
 
 
