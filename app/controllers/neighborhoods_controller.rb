@@ -9,4 +9,5 @@ class NeighborhoodsController < ApplicationController
 		@dcps = nb.daycareproviders		
 	end 
 
+
 end

@@ -28,6 +28,7 @@ body {
 }
 body {
   padding-top: 70px;
+  background-color: #Ffffff;
 }
 
 @media (min-width: 1200px) {
@@ -35,26 +36,99 @@ body {
         max-width: 970px;
     }
 }
+.navbar {
+  box-shadow:0 0 10px 0 rgba(0,0,0,.40)!important;
+  background-color: #ffffff;
+}
 .navbar-brand {
-	/*padding-left:200px;*/
 	font-size: 20px;
+}
+
+
+#header{
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .card {
 	margin-top: 10px;
 	box-shadow:0px 3px 10px -3px; 
+  border-radius: 0;
 }
 .card-text {
 	font-size: 13px;
 }
+.spacing {
+  margin-bottom: 15px;
+}
 
+#cardheadertext {
+  color: #3C255B;
+}
 /**{
-  border: 2px solid black;
+  border: 1px solid black;
 }*/
+
 ul{
   float: right;
+  clear: top;
+  margin-top: 5px;
+  margin-bottom: 3px;
+
 }
 ul, li {
   display: inline-block;
+}
+li {
+  padding-left: 2
+}
+.rightsidecard{
+  overflow: hidden;
 
+}
+#bottomlicense{
+  clear: right;
+  float: right;
+}
+.card-text {
+  margin-top: 10px;
+}
+a {
+  color: #09579a;
+}
+@media (max-width: 320px){
+  #email{
+    /*margin-left: 0rem;*/
+    padding: 0px;
+  }
+}
+table{
+  margin-top: 13px;
+}
+td {
+  /*border: 1px solid black;*/
+  padding-right: 10px;
+  font-size: 80%;
+}
+tr {
+  text-align: center;
+}
+.tablelabels {
+  font-weight: bold;
+  /*color: #3C255B;*/
+}
+.contactdeets{
+  margin-bottom: 0;
+  color:#3C255B;
+  
+}
+@media (min-width: 375px){
+  #email{
+    /*margin-left: 0rem;*/
+    padding-right: 5px;
+  }
+}
+
+#footer{
+  margin-top: 30px;
 }
