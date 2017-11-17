@@ -1,0 +1,24 @@
+ts
+<table> 
+<th></th><th>Name</th><th>Address</th><th>Zip Code</th><th>Phone</th>
+	<% @daycareproviders.each_with_index do |provider,index| %>
+		<tr>
+			<td><%= index +1%></td>
+			<td><%= provider.facilityname %></td>
+			<td><%= provider.streetaddress %></td>
+			<td><%= provider.zipcode %></td>
+			<td><%= provider.telephone %></td>
+		</tr>
+	<% end %>
+	<% @smalldaycareproviders.each do |small_provider| %>
+		<tr>
+			<td><%= @dss_daycare_count = @dss_daycare_count + 1 %></td>
+			<td><%= small_provider.name %></td>
+			<td><%= small_provider.mail_address_1 %></td>
+			<td><%= small_provider.mail_zip_code %></td>
+			<td><%= small_provider.phone %></td>
+		</tr>
+	<% end %>
+</table> 
+
+

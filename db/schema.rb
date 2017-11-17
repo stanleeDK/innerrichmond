@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170716045551) do
+ActiveRecord::Schema.define(version: 20171116003939) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -98,6 +98,61 @@ ActiveRecord::Schema.define(version: 20170716045551) do
     t.datetime "ccsf_created_at"
     t.datetime "ccsf_updated_at"
     t.boolean  "open_24"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+  end
+
+  create_table "dss_ca_gov_day_care_raws", force: :cascade do |t|
+    t.string   "capacity"
+    t.string   "city"
+    t.string   "contact"
+    t.string   "county"
+    t.string   "districtoffice"
+    t.string   "doaddress"
+    t.string   "docity"
+    t.string   "dostate"
+    t.string   "dotelephone"
+    t.string   "dozipcode"
+    t.string   "facilityname"
+    t.string   "facilitynumber"
+    t.string   "facilitytype"
+    t.string   "lastvisitdate"
+    t.string   "licenseeffectivedate"
+    t.string   "licensefirstdate"
+    t.string   "licenseename"
+    t.string   "nbrallvisits"
+    t.string   "nbrcmpltvisits"
+    t.string   "nbrcmplttypa"
+    t.string   "nbrcmplttypb"
+    t.string   "nbrcmpltinc"
+    t.string   "nbrcmpltuns"
+    t.string   "nbrcmpltsub"
+    t.string   "nbrcmpltunf"
+    t.string   "nbrinspvisits"
+    t.string   "nbrinsptypa"
+    t.string   "nbrinsptypb"
+    t.string   "nbrothervisits"
+    t.string   "nbrothertypa"
+    t.string   "nbrothertypb"
+    t.string   "state"
+    t.string   "status"
+    t.string   "streetaddress"
+    t.string   "telephone"
+    t.string   "vstdateall"
+    t.string   "vstdatecmplt"
+    t.string   "vstdateinsp"
+    t.string   "vstdateother"
+    t.string   "zipcode"
+    t.string   "totcmpvisits"
+    t.string   "totsubalg"
+    t.string   "totincalg"
+    t.string   "totunsalg"
+    t.string   "totunfalg"
+    t.string   "tottypea"
+    t.string   "tottypeb"
+    t.string   "cmpcount"
+    t.string   "complaintarray"
+    t.string   "tsocase"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
   end

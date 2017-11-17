@@ -1,0 +1,392 @@
+[
+  {
+    "facility_type": [
+      {
+        "id": 400,
+        "display_name": "Adoption Agency",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "FosterFamilyAgencies",
+        "display_order": 1
+      },
+      {
+        "id": 430,
+        "display_name": "Foster Family Agency",
+        "description": "placement agency for children",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "FosterFamilyAgencies",
+        "display_order": 2
+      },
+      {
+        "id": 431,
+        "display_name": "Foster Family Sub Agency",
+        "description": "affiliated with a Foster Family Agency",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "FosterFamilyAgencies",
+        "display_order": 3
+      }
+    ],
+    "id": "FosterFamilyAgencies",
+    "display_name": "Foster Family Agencies",
+    "display_order": 1
+  },
+  {
+    "facility_type": [
+      {
+        "id": 710,
+        "display_name": "Residential Small Family Homes",
+        "description": "for children with special health care needs",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 1
+      },
+      {
+        "id": 720,
+        "display_name": "Residential Crisis Nurseries",
+        "description": "for children under the age of six",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 2
+      },
+      {
+        "id": 722,
+        "display_name": "Transitional Shelter Care Facility",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 3
+      },
+      {
+        "id": 726,
+        "display_name": "Transitional Housing Placement",
+        "description": "for transition age youth",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 4
+      },
+      {
+        "id": 728,
+        "display_name": "Residential Community Treatment Facility",
+        "description": "children requiring a secure setting",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 5
+      },
+      {
+        "id": 729,
+        "display_name": "Enhanced Behavioral Support Home",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 6
+      },
+      {
+        "id": 730,
+        "display_name": "Children's Residential  Group Home",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 7
+      },
+      {
+        "id": 731,
+        "display_name": "Children's Residential Out of State Group Homes",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 8
+      },
+      {
+        "id": 732,
+        "display_name": "Runaway & Homeless Youth Shelter",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 9
+      },
+      {
+        "id": 733,
+        "display_name": "ShortTerm Residential Treatment Facility",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "optional",
+        "facility_group_id": "TwentyFourHourResChildren",
+        "display_order": 10
+      }
+    ],
+    "id": "TwentyFourHourResChildren",
+    "display_name": "24 Hour Residential Care for Children",
+    "display_order": 2
+  },
+  {
+    "facility_type": [
+      {
+        "id": 734,
+        "display_name": "Adult Residential - ARFSHNs",
+        "description": "18 through 59 with developmental disabilities and medical care needs",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "AdultResidentialAndDaycare",
+        "display_order": 2
+      },
+      {
+        "id": 735,
+        "display_name": "Adult Residential Facility",
+        "description": "ages 18 through 59",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "AdultResidentialAndDaycare",
+        "display_order": 1
+      },
+      {
+        "id": 736,
+        "display_name": "Residential Care Facility for Chronically ill",
+        "description": "ages 18 and over with terminal illness",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "AdultResidentialAndDaycare",
+        "display_order": 3
+      },
+      {
+        "id": 737,
+        "display_name": "Enhanced Behavioral Support Home",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "AdultResidentialAndDaycare",
+        "display_order": 4
+      },
+      {
+        "id": 738,
+        "display_name": "Community Crisis Home",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "AdultResidentialAndDaycare",
+        "display_order": 5
+      },
+      {
+        "id": 772,
+        "display_name": "Social Rehabilitation Facility",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "AdultResidentialAndDaycare",
+        "display_order": 6
+      },
+      {
+        "id": 775,
+        "display_name": "Adult Day Care",
+        "description": "day care for 18 and older",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "AdultResidentialAndDaycare",
+        "display_order": 7
+      }
+    ],
+    "id": "AdultResidentialAndDaycare",
+    "display_name": "Adult Residential and Daycare",
+    "display_order": 3
+  },
+  {
+    "facility_type": [
+      {
+        "id": 740,
+        "display_name": "Assisted Living",
+        "description": "Residential Care for the Eldery",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "ElderlyAssistedLiving",
+        "display_order": 1
+      },
+      {
+        "id": 741,
+        "display_name": "Residential Care for the Elderly Continuing Care Contracts",
+        "description": "Assisted Living including continuing care",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "ElderlyAssistedLiving",
+        "display_order": 2
+      }
+    ],
+    "id": "ElderlyAssistedLiving",
+    "display_name": "Elderly Assisted Living",
+    "display_order": 4
+  },
+  {
+    "facility_type": [
+      {
+        "id": 0,
+        "display_name": "Family Child Care Home(Small)",
+        "description": "8 children or less",
+        "facility_name_search_mode": "exact",
+        "street_search_mode": "disabled",
+        "city_search_mode": "disabled",
+        "zip_search_mode": "disabled",
+        "county_search_mode": "disabled",
+        "facility_group_id": "ChildCare",
+        "display_order": 5
+      },
+      {
+        "id": 810,
+        "display_name": "Family Child Care Home(Large)",
+        "description": "up to 14 children",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "disabled",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "ChildCare",
+        "display_order": 6
+      },
+      {
+        "id": 830,
+        "display_name": "Child Care - Infant Center",
+        "description": "serves ages 0-2",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "ChildCare",
+        "display_order": 1
+      },
+      {
+        "id": 840,
+        "display_name": "School Age Child Care Center",
+        "description": "serves ages 5-17",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "ChildCare",
+        "display_order": 2
+      },
+      {
+        "id": 845,
+        "display_name": "Child Care Center",
+        "description": "Mildly ill",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "ChildCare",
+        "display_order": 3
+      },
+      {
+        "id": 850,
+        "display_name": "Child Care Center Preschool",
+        "description": "serves ages 2-5",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "ChildCare",
+        "display_order": 4
+      }
+    ],
+    "id": "ChildCare",
+    "display_name": "Child Care",
+    "display_order": 5
+  },
+  {
+    "facility_type": [
+      {
+        "id": 300,
+        "display_name": "Home Care Organization",
+        "description": "",
+        "facility_name_search_mode": "optional",
+        "street_search_mode": "optional",
+        "city_search_mode": "optional",
+        "zip_search_mode": "optional",
+        "county_search_mode": "optional",
+        "facility_group_id": "HomeCareOrg",
+        "display_order": 1
+      }
+    ],
+    "id": "HomeCareOrg",
+    "display_name": "Home Care Organization",
+    "display_order": 6
+  }
+]

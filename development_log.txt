@@ -73,8 +73,10 @@ July 15th
 - https://devcenter.heroku.com/articles/getting-started-with-ruby#use-a-database
 
 
+Nov 15th 
+- Start scraping https://secure.dss.ca.gov for 
+- Get the raw data into a raw data table 
 
-
-
-
+1. Rails ID
+2. Type: 
 

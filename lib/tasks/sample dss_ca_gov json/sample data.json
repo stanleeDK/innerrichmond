@@ -1,0 +1,491 @@
+{
+  "COUNT": 54,
+  "FACILITYARRAY": [
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "GROWING TREE SCHOOL LLC, THE (INF)",
+      "FACILITYNUMBER": "384002519",
+      "STATUS": "Pending",
+      "STREETADDRESS": "1984 GREAT HIGHWAY",
+      "TELEPHONE": "(415) 668-2918",
+      "ZIPCODE": "94116"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "FRANDELJA FAIRFAX",
+      "FACILITYNUMBER": "384002983",
+      "STATUS": "Pending",
+      "STREETADDRESS": "901 B FAIRFAX AVENUE",
+      "TELEPHONE": "(415) 822-1699",
+      "ZIPCODE": "94124"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "KAI MING RAINBOW INFANT\/TODDLER CENTER",
+      "FACILITYNUMBER": "384002725",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "799 PACIFIC AVENUE",
+      "TELEPHONE": "(415) 982-4777",
+      "ZIPCODE": "94133"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "LITTLE OHANA",
+      "FACILITYNUMBER": "384002795",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "50 FREMONT STREET",
+      "TELEPHONE": "(650) 484-3000",
+      "ZIPCODE": "94105"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "ANGELA'S CHILDREN CENTER",
+      "FACILITYNUMBER": "384002781",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "775 - 7TH AVENUE",
+      "TELEPHONE": "(415) 386-0184",
+      "ZIPCODE": "94118"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "KIDS BY THE BAY - FINANCIAL DISTRICT",
+      "FACILITYNUMBER": "384002789",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "75 HAWTHORNE STEET",
+      "TELEPHONE": "(415) 608-0218",
+      "ZIPCODE": "94105"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "TELEGRAPH HILL NEIGHBORHOOD CTR.(INF.)",
+      "FACILITYNUMBER": "384002632",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "660 LOMBARD STREET",
+      "TELEPHONE": "(415) 421-6443",
+      "ZIPCODE": "94133"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "TINY GIANTS TOO, INC.",
+      "FACILITYNUMBER": "384002389",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "2163 FILBERT STREET",
+      "TELEPHONE": "(415) 409-6581",
+      "ZIPCODE": "94123"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "LAND'S END SCHOOL - INFANT, THE",
+      "FACILITYNUMBER": "384002286",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "4150 CLEMENT ST BUILDING T-35",
+      "TELEPHONE": "(415) 751-8511",
+      "ZIPCODE": "94121"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "SLIPPERY FISH INITIATIVE, INC.-INFANT",
+      "FACILITYNUMBER": "384002204",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "999 BROTHERHOOD WAY",
+      "TELEPHONE": "(415) 585-5300",
+      "ZIPCODE": "94132"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "CCFC-VV JOHN KING CENTER (I)",
+      "FACILITYNUMBER": "384002238",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "500 RAYMOND AVENUE",
+      "TELEPHONE": "(415) 921-7019",
+      "ZIPCODE": "94134"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "LE PORT SCHOOL (INFANT)",
+      "FACILITYNUMBER": "384002585",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "50 FELL STREET",
+      "TELEPHONE": "(415) 805-8315",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "BRIGHT HORIZONS AT KANSAS STREET (INF)",
+      "FACILITYNUMBER": "384002478",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "200 KANSAS STREET, STE. 100",
+      "TELEPHONE": "(415) 863-2533",
+      "ZIPCODE": "94103"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "GROWING TREE SCHOOL LLC, THE (INF)",
+      "FACILITYNUMBER": "384002455",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1984 GREAT HIGHWAY",
+      "TELEPHONE": "(415) 682-8889",
+      "ZIPCODE": "94116"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "CROSS CULTURAL FAM CTR(CCFC)-TENDERLOIN INFANT CTR",
+      "FACILITYNUMBER": "384002192",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "333 TAYLOR STREET",
+      "TELEPHONE": "(415) 921-7019",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "BRIGHT HORIZONS AT 221 MAIN STREET (INFANT)",
+      "FACILITYNUMBER": "384001514",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "221 MAIN STREET",
+      "TELEPHONE": "(415) 495-1706",
+      "ZIPCODE": "94105"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "MARIN DAY SCHOOLS - HILLS PLAZA CAMPUS (INFANT)",
+      "FACILITYNUMBER": "384001300",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "2 HARRISON ST. #150",
+      "TELEPHONE": "(415) 777-9696",
+      "ZIPCODE": "94105"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "KIDS BY THE BAY - INFANT",
+      "FACILITYNUMBER": "384001719",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "90 SEVENTH STREET",
+      "TELEPHONE": "(415) 554-8100",
+      "ZIPCODE": "94103"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "CCFC-MARY LANE INFANT AND TODDLER CENTER",
+      "FACILITYNUMBER": "384001117",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "ONE WEBSTER STREET",
+      "TELEPHONE": "(415) 921-7019",
+      "ZIPCODE": "94117"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "CCFC - OSCARYNE WILLIAMS CENTER",
+      "FACILITYNUMBER": "384002731",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "85 TURNER TERRACE",
+      "TELEPHONE": "(415) 921-7019",
+      "ZIPCODE": "94107"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "HOLY FAMILY DAY HOME INFANT\/TODLR CTR.",
+      "FACILITYNUMBER": "384002319",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "299 DOLORES ST.,RMS #1 & #2",
+      "TELEPHONE": "(415) 861-5361",
+      "ZIPCODE": "94103"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "CCFC-VV HERITAGE CENTER (I)",
+      "FACILITYNUMBER": "384002240",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "245 REY STREET",
+      "TELEPHONE": "(415) 921-7019",
+      "ZIPCODE": "94134"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "BRIGHT HORIZONS UCSF MARILYN REED LUCIA CDC",
+      "FACILITYNUMBER": "384002158",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "610 PARNASSUS AVENUE",
+      "TELEPHONE": "(415) 504-7023",
+      "ZIPCODE": "94143"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "SFSU - CHILDREN'S CAMPUS (INFANT)",
+      "FACILITYNUMBER": "384001885",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "N. STATE DR.&LAKE MERCED BLVD.",
+      "TELEPHONE": "(415) 405-4011",
+      "ZIPCODE": "94132"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "SOUTHEAST FAMILIES UNITED\/CHILDREN'S CENTER",
+      "FACILITYNUMBER": "384001835",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1337 EVANS AVENUE",
+      "TELEPHONE": "(415) 920-7000",
+      "ZIPCODE": "94124"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "MARIN DAY SCHOOL - S.F. CITY HALL CCC (INFANT)",
+      "FACILITYNUMBER": "384001293",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1 DR. CARLTON B. GOODLETT WAY",
+      "TELEPHONE": "(415) 554-7560",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "BRIGHT HORIZONS UCSF LAUREL HEIGHTS (INFANT)",
+      "FACILITYNUMBER": "384001302",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "3333 CALIFORNIA ST., STE. 220",
+      "TELEPHONE": "(415) 775-2111",
+      "ZIPCODE": "94118"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "WU YEE CHILDREN'S SERVICES-SUNNYDALE CDC-INFANTS",
+      "FACILITYNUMBER": "384000920",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "700 VELASCO AVENUE",
+      "TELEPHONE": "(415) 391-4721",
+      "ZIPCODE": "94134"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "MONTESSORI SCHOOL OF THE BAY AREA INC. - INFANT",
+      "FACILITYNUMBER": "384000667",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1550 EDDY STREET",
+      "TELEPHONE": "(415) 292-7970",
+      "ZIPCODE": "94115"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "SFUSD-PRESIDIO (EES) INFANT\/TODDLER",
+      "FACILITYNUMBER": "384000066",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "387 MORAGA AVE",
+      "TELEPHONE": "(415) 561-5822",
+      "ZIPCODE": "94129"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "PACIFIC GAS & ELECTRIC CHILDREN'S CENTER - INFANT",
+      "FACILITYNUMBER": "380506486",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "77 BEALE STREET 2ND FLR MC-B2A",
+      "TELEPHONE": "(415) 972-5535",
+      "ZIPCODE": "94105"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "GRACE INFANT CARE CENTER",
+      "FACILITYNUMBER": "380504016",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "3201 ULLOA STREET",
+      "TELEPHONE": "(415) 681-6606",
+      "ZIPCODE": "94116"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "WU YEE CHILDREN'S SERVICES - KIRKWOOD CCC (INF)",
+      "FACILITYNUMBER": "384002530",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "729 KIRKWOOD AVENUE",
+      "TELEPHONE": "(415) 822-5505",
+      "ZIPCODE": "94124"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "FACESSF - HAYES VALLEY CDC (INFANT)",
+      "FACILITYNUMBER": "384002202",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "305 BUCHANAN STREET",
+      "TELEPHONE": "(415) 552-1535",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "MARIN DAY SCHOOLS - SPEAR STREET (INFANT)",
+      "FACILITYNUMBER": "384001295",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "220 SPEAR STREET",
+      "TELEPHONE": "(415) 777-2081",
+      "ZIPCODE": "94105"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "BRIGHT HORIZONS @ SECOND STREET - INFANT",
+      "FACILITYNUMBER": "384001807",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "303 SECOND STREET,2ND FL.,#250",
+      "TELEPHONE": "(415) 495-2500",
+      "ZIPCODE": "94107"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "MARIN DAY SCHOOLS - 1390 MARKET STREET CAMPUS",
+      "FACILITYNUMBER": "384001297",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1390 MARKET STREET,#108",
+      "TELEPHONE": "(415) 431-2201",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "LETTERMAN DIGITAL ARTS CCC (INFANT)",
+      "FACILITYNUMBER": "384001492",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "ONE LETTERMAN DRIVE, BLDG. B",
+      "TELEPHONE": "(415) 746-5444",
+      "ZIPCODE": "94129"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "WU YEE CHILDREN SERVICES-CHINATOWN INFANT CENTER",
+      "FACILITYNUMBER": "384000804",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "831 BROADWAY STREET, 1ST FLOOR",
+      "TELEPHONE": "(415) 391-4721",
+      "ZIPCODE": "94133"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "UCSF CHILD CARE AT MISSION BAY - INFANT",
+      "FACILITYNUMBER": "384001587",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1555 SIXTH STREET",
+      "TELEPHONE": "(415) 255-7954",
+      "ZIPCODE": "94158"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "EPIPHANY PARENT-CHILD CENTER",
+      "FACILITYNUMBER": "384001093",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "100 MASONIC AVENUE",
+      "TELEPHONE": "(415) 567-8370",
+      "ZIPCODE": "94118"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "FAMILY SCHOOL CDC BERNAL GATEWAY, THE",
+      "FACILITYNUMBER": "384000958",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "3101 MISSION STREET",
+      "TELEPHONE": "(415) 550-4178",
+      "ZIPCODE": "94110"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "HELEN HAWK CHILDREN'S CTR-COMPASS FAM SRVS INFANT",
+      "FACILITYNUMBER": "380506509",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "111 PAGE STREET",
+      "TELEPHONE": "(415) 863-0681",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "ASSOCIATED STUDENTS CHILDREN'S CENTER - INFANT",
+      "FACILITYNUMBER": "380504941",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1650 HOLLOWAY AVENUE",
+      "TELEPHONE": "(415) 338-2403",
+      "ZIPCODE": "94132"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "C5 CHILDREN'S SCHOOL-SFPUC (INF)",
+      "FACILITYNUMBER": "384002300",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "525 GOLDEN GATE AVENUE",
+      "TELEPHONE": "(415) 703-1277",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "MARTHA HILLS LEARNING CENTER - INFANT",
+      "FACILITYNUMBER": "384001665",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1042 JAMESTOWN AVENUE",
+      "TELEPHONE": "(415) 467-7427",
+      "ZIPCODE": "94124"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "COMPASS CHILDREN'S CENTER-INFANTS",
+      "FACILITYNUMBER": "384000989",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "144 LEAVENWORTH STREET",
+      "TELEPHONE": "(415) 644-0504",
+      "ZIPCODE": "94102"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "KATHERINE MICHIELS SCHOOL",
+      "FACILITYNUMBER": "380504984",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "1335 GUERRERO STREET",
+      "TELEPHONE": "(415) 821-1434",
+      "ZIPCODE": "94110"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "FAMILY DEVELOPMENTAL CENTER (INFANT)",
+      "FACILITYNUMBER": "380505534",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "2730 BRYANT STREET",
+      "TELEPHONE": "(415) 282-1090",
+      "ZIPCODE": "94110"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "TREASURE ISLAND CHILD DEVELOPMENT CENTER - INFANT",
+      "FACILITYNUMBER": "384002012",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "850 AVENUE D, BUILDING 502",
+      "TELEPHONE": "(415) 834-0614",
+      "ZIPCODE": "94130"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "YERBA BUENA GARDENS CHILD DEV CTR",
+      "FACILITYNUMBER": "384000407",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "790 FOLSOM STREET",
+      "TELEPHONE": "(415) 820-3500",
+      "ZIPCODE": "94107"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "BRIGHT HORIZONS SAN FRANCISCO CALIFORNIA ST-INFANT",
+      "FACILITYNUMBER": "384000105",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "555 CALIFORNIA STREET",
+      "TELEPHONE": "(415) 392-7531",
+      "ZIPCODE": "94104"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "ST. NICHOLAS DAY CARE AND PRESCHOOL-INFANT",
+      "FACILITYNUMBER": "380505725",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "5200 DIAMOND HEIGHTS BLVD.",
+      "TELEPHONE": "(415) 550-1536",
+      "ZIPCODE": "94131"
+    },
+    {
+      "COUNTY": "San Francisco",
+      "FACILITYNAME": "FRANDELJA ENRICHMENT CENTER (INFANT)",
+      "FACILITYNUMBER": "384000798",
+      "STATUS": "Licensed",
+      "STREETADDRESS": "950 GILMAN STREET",
+      "TELEPHONE": "(415) 822-1699",
+      "ZIPCODE": "94124"
+    }
+  ]
+}
