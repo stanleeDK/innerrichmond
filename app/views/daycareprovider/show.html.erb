@@ -1,6 +1,12 @@
-ts
+
 <table> 
-<th></th><th>Name</th><th>Address</th><th>Zip Code</th><th>Phone</th>
+	<th></th>
+	<th>Name</th>
+	<th>Address</th>
+	<th>Zip Code</th>
+	<th>Phone</th>
+	<th>License</th>
+	<th>License 2</th>
 	<% @daycareproviders.each_with_index do |provider,index| %>
 		<tr>
 			<td><%= index +1%></td>
@@ -8,6 +14,8 @@ ts
 			<td><%= provider.streetaddress %></td>
 			<td><%= provider.zipcode %></td>
 			<td><%= provider.telephone %></td>
+			<td><%= provider.facilitynumber %></td>
+			<td>-</td>
 		</tr>
 	<% end %>
 	<% @smalldaycareproviders.each do |small_provider| %>
@@ -17,6 +25,11 @@ ts
 			<td><%= small_provider.mail_address_1 %></td>
 			<td><%= small_provider.mail_zip_code %></td>
 			<td><%= small_provider.phone %></td>
+      		<td><%= small_provider.daycarelicenses.first.state_license_number %></td>
+      		<% if small_provider.daycarelicenses.size > 1 %>
+        		<td><%= small_provider.daycarelicenses.second.state_license_number %></td>
+      		<% end %>			
+      		
 		</tr>
 	<% end %>
 </table> 
