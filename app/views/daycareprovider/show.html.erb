@@ -1,20 +1,25 @@
 
-<table> 
-	<th></th>
-	<th>Name</th>
-	<th>Address</th>
-	<th>Zip Code</th>
-	<th>Phone</th>
-	<th>License</th>
-	<th>License 2</th>
-	<% @daycareproviders.each_with_index do |provider,index| %>
+
+<table class="table table-striped table-sm"> 
+	<thead class="thead">
+		<th></th>
+		<th>Name</th>
+		<th>Address</th>
+		<th>Zip Code</th>
+		<th>Phone</th>
+		<th>License</th>
+		<th>License 2</th>
+	</thead>
+	<% @dssdaycareproviders.each_with_index do |provider,index| %>
 		<tr>
 			<td><%= index +1%></td>
 			<td><%= provider.facilityname %></td>
 			<td><%= provider.streetaddress %></td>
 			<td><%= provider.zipcode %></td>
 			<td><%= provider.telephone %></td>
-			<td><%= provider.facilitynumber %></td>
+			<td>
+				<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= provider.facilitynumber %>"><%= provider.facilitynumber %></a> 
+			</td>
 			<td>-</td>
 		</tr>
 	<% end %>
@@ -28,6 +33,8 @@
       		<td><%= small_provider.daycarelicenses.first.state_license_number %></td>
       		<% if small_provider.daycarelicenses.size > 1 %>
         		<td><%= small_provider.daycarelicenses.second.state_license_number %></td>
+        	<% else %> 
+        		<td>-</td>
       		<% end %>			
       		
 		</tr>

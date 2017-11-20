@@ -2,11 +2,13 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  root 'staticpages#home_page'
+  # root 'staticpages#home_page'
   get 'raw/trulia'      => 'raw_trulia#show'
-  get 'providers'       => 'daycareprovider#show'
+  # get 'providers'       => 'daycareprovider#show'
   get 'searchaddresses' => 'staticpages#officialaddresses'
   resources :neighborhoods
+
+  root 'daycareprovider#show'
 
   # get '/', to: 'staticpages#home_page'
 

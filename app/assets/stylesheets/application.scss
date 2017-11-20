@@ -33,17 +33,21 @@ body {
 
 @media (min-width: 1200px) {
     .container{
-        max-width: 970px;
+        /*max-width: 970px;*/
+        max-width: 1200px;
     }
 }
 .navbar {
+  padding-left: 81px;
   box-shadow:0 0 10px 0 rgba(0,0,0,.40)!important;
   background-color: #ffffff;
 }
 .navbar-brand {
 	font-size: 20px;
 }
-
+.purple {
+  color: #410b91 !important;
+}
 
 #header{
   margin-top: 15px;
@@ -95,6 +99,7 @@ li {
 }
 a {
   color: #09579a;
+
 }
 @media (max-width: 320px){
   #email{
