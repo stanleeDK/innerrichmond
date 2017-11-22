@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>-</title>
+  <title>Day Care In San Francisco</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -9,16 +9,17 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 </head>
 <body>
+<!--
     <nav class="navbar navbar-toggleable-md fixed-top navbar-light">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon" ></span>
       </button>
       <a class="purple navbar-brand" href="#">Child Care in The City</a>
 
-<!--       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -43,25 +44,27 @@
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
- -->    </nav>
-
+     </nav>
+-->
 
   <div class="container">
-<div class="banner">
-  
-    <!-- <h4>Daycare providers and facilities in San Francisco.</h4> -->
-  
-</div>
-
-
-
+    <div class="row ">
+      <!-- <div class="col">sdf</div> -->
+      <div class="col" id="centerme">
+      <div id="searchtitle" class="center-block align-middle"> Child Care in San Francisco</div>
+        <div contenteditable="false" class="search center-block align-middle">
+          <input id="searchinput" type="text" name="">
+          </div>
+      </div>
+      <!-- <div class="col"></div> -->
+    </div>
 
   	<div class="row">
-    <div class="col">
-		  <%= yield %>     
-    </div>
-	</div>     
-  </div>
+      <div class="col">
+  		  <%= yield %>     
+      </div>
+	 </div>     
+</div>
 
  
 

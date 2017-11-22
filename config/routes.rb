@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'raw/trulia'      => 'raw_trulia#show'
   # get 'providers'       => 'daycareprovider#show'
   get 'searchaddresses' => 'staticpages#officialaddresses'
+  get 'flexboxtest'     => 'staticpages#flexboxtest'
   resources :neighborhoods
 
   root 'daycareprovider#show'

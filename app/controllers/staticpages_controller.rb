@@ -4,7 +4,6 @@ class StaticpagesController < ApplicationController
 		@neighborhoods = Neighborhood.all
 	end 
 
-
 	# def officialaddresses #api endpoint for the crappy jquery autocomplete
 		# if params[:searchterm]
 			# @officialaddresses = OfficialAddress.search_official_addresses(params[:searchterm])

@@ -23,7 +23,7 @@ namespace :ingest do
 		# Childcare Pre-School 2-5				https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=850&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=
 		# School Age 5-17						https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=840&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=
 
-		uri  = URI.parse('https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=810&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=')
+		uri  = URI.parse('https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=840&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=')
 		http = Net::HTTP.new(uri.host, uri.port)
 		http.use_ssl = true
 		http.verify_mode = OpenSSL::SSL::VERIFY_NONE
