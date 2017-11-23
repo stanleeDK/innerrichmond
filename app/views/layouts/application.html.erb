@@ -47,13 +47,22 @@
      </nav>
 -->
 
+<% form_tag do %>
+<% end %>
+<% form_tag("/search", :method => "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
   <div class="container">
     <div class="row ">
       <!-- <div class="col">sdf</div> -->
       <div class="col" id="centerme">
-      <div id="searchtitle" class="center-block align-middle"> Child Care in San Francisco</div>
+      <div id="searchtitle" class="center-block align-middle"> San Francisco Child Care Directory</div>
         <div contenteditable="false" class="search center-block align-middle">
+          
           <input id="searchinput" type="text" name="">
+
           </div>
       </div>
       <!-- <div class="col"></div> -->

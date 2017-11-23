@@ -80,3 +80,7 @@ Nov 15th
 1. Rails ID
 2. Type: 
 
+
+Nov 22 
+- Build something to prevent duplicates then rescrape and show them the citations and violations 
+

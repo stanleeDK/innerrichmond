@@ -23,7 +23,7 @@ namespace :ingest do
 		# Childcare Pre-School 2-5				https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=850&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=
 		# School Age 5-17						https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=840&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=
 
-		uri  = URI.parse('https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=840&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=')
+		uri  = URI.parse('https://secure.dss.ca.gov/ccld/TransparencyAPI/api/FacilitySearch?facType=850&facility=&Street=&city=&zip=&county=San%20Francisco&facnum=')
 		http = Net::HTTP.new(uri.host, uri.port)
 		http.use_ssl = true
 		http.verify_mode = OpenSSL::SSL::VERIFY_NONE
@@ -100,7 +100,7 @@ namespace :ingest do
 			# dss_daycare_provider.complaintarray  = payload2['FacilityDetail']['COMPLAINTARRAY']
 			# dss_daycare_provider.tsocase  = payload2['FacilityDetail']['CAPACITY']
 
-			dss_daycare_provider.save
+			puts dss_daycare_provider.save
 
 		end 	
 

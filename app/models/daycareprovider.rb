@@ -17,6 +17,12 @@ class Daycareprovider < ActiveRecord::Base
 		end 
 	end 
 
+	def age_range
+		temp_range = self[:licensed_ages].split(",")
+		range = "#{temp_range[0].to_i/12}-#{temp_range.last.to_i/12}"
+		return range
+	end
+
 	# before_save :return_dupe_message
 
 	# def return_dupe_message 
