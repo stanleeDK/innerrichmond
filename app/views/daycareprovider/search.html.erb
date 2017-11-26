@@ -1,0 +1,10 @@
+<!-- <a href>< back </a> -->
+<div class="col" id="centerme_search">
+		<div contenteditable="false" class="search">
+  		<%= form_tag("/search", method: "get") do %>          
+    		<input id="searchinput" type="text" name="searchinput" value=<%=@u_input %>>
+  		<% end %>
+	</div>
+</div>
+
+<%= render 'resultstable' %>

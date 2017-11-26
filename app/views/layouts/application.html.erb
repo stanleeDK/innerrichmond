@@ -10,6 +10,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <script src="https://use.fontawesome.com/c4f865cc02.js"></script>
 </head>
 <body>
 <!--
@@ -47,25 +48,11 @@
      </nav>
 -->
 
-<% form_tag do %>
-<% end %>
-<% form_tag("/search", :method => "get") do %>
-  <%= label_tag(:q, "Search for:") %>
-  <%= text_field_tag(:q) %>
-  <%= submit_tag("Search") %>
-<% end %>
+
+  
+
   <div class="container">
     <div class="row ">
-      <!-- <div class="col">sdf</div> -->
-      <div class="col" id="centerme">
-      <div id="searchtitle" class="center-block align-middle"> San Francisco Child Care Directory</div>
-        <div contenteditable="false" class="search center-block align-middle">
-          
-          <input id="searchinput" type="text" name="">
-
-          </div>
-      </div>
-      <!-- <div class="col"></div> -->
     </div>
 
   	<div class="row">

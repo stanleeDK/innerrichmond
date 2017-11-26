@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   resources :neighborhoods
 
   root 'daycareprovider#show'
+  get 'search'          => 'daycareprovider#search'
 
   # get '/', to: 'staticpages#home_page'
 

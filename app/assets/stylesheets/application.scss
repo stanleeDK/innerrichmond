@@ -21,6 +21,12 @@
  * Style tweaks
  * --------------------------------------------------
  */
+
+/**{
+  border: 1px solid grey;
+}*/
+
+
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -31,13 +37,8 @@ body {
 
 
 /* 
-  test area start
+  Search Div Homepage start
 */
-/**{
-  border: 1px solid grey;
-}
-*/
-
 
 #centerme {
   padding-top: 85px;
@@ -53,7 +54,7 @@ body {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   height: 44px;
   width: 484px;
-/*transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
+  /*transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);*/
 }
 .search:hover{
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
@@ -72,8 +73,30 @@ input{
   font-family: 'Oxygen', sans-serif;
 }
 
+::-webkit-input-placeholder { /* WebKit browsers */
+     opacity: 0.33 !important;
+}
+
+.error {
+  color:#F7CB83;
+  font-size: 70%;
+  padding-top: 30px; 
+}
 /* 
-  test area end
+  Search Div Homepage  end
+*/
+
+/* 
+  Search Div Search Results page start
+*/
+#centerme_search {
+  /*border: 1px solid grey;*/
+  padding-top: 3px;
+  padding-bottom: 30px;
+}
+
+/* 
+  Search Div Search Results page start
 */
 
 
@@ -186,6 +209,7 @@ a {
 }
 table{
   margin-top: 13px;
+  /*white-space: nowrap;*/
 }
 .table-striped tbody tr:nth-of-type(odd){
   background-color: #fbfbfb;
@@ -194,9 +218,17 @@ td {
   /*border: 1px solid black;*/
   /*padding-right: 10px;*/
   text-align: left;
-  margin-right: 10px;
+  margin-right: 5px;
   margin-left: 10px;
   font-size: 80%;
+  /*white-space: nowrap;*/
+}
+.email_click {
+  color: #09579a;
+  cursor: pointer;
+}
+.hidden_provider_deets {
+  display: none;
 }
 tr {
   text-align: center;
