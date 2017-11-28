@@ -10,7 +10,7 @@ class DaycareproviderController < ApplicationController
 		
 
 		# -- remove dupes between dss and ccsf
-		@smalldaycareproviders 	= Daycareprovider.all
+		@smalldaycareproviders 	= Daycareprovider.all.limit(100)
 		dupe_daycares 			= Array.new
 
 		
