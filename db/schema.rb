@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171116003939) do
+ActiveRecord::Schema.define(version: 20171203224639) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -183,41 +183,26 @@ ActiveRecord::Schema.define(version: 20171116003939) do
     t.datetime "updated_at",        null: false
   end
 
-  create_table "official_address_backup", id: false, force: :cascade do |t|
-    t.integer  "id"
-    t.integer  "eas_base_id"
-    t.integer  "eas_sub_id"
-    t.integer  "CNN"
+  create_table "realdaycareproviders", force: :cascade do |t|
+    t.string   "name"
+    t.string   "business_name"
+    t.string   "phone"
+    t.string   "email"
+    t.string   "url"
     t.string   "address"
-    t.integer  "address_number"
-    t.string   "address_number_suffix"
-    t.string   "street_name"
-    t.string   "street_type"
-    t.string   "unit_number"
-    t.integer  "zipcode"
-    t.integer  "blocklot"
-    t.decimal  "long",                  precision: 15, scale: 7
-    t.decimal  "lat",                   precision: 15, scale: 7
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "official_addresses", force: :cascade do |t|
-    t.integer  "eas_base_id"
-    t.integer  "eas_sub_id"
-    t.integer  "CNN"
-    t.string   "address"
-    t.integer  "address_number"
-    t.string   "address_number_suffix"
-    t.string   "street_name"
-    t.string   "street_type"
-    t.string   "unit_number"
-    t.integer  "zipcode"
-    t.integer  "blocklot"
-    t.decimal  "long",                  precision: 15, scale: 7
-    t.decimal  "lat",                   precision: 15, scale: 7
-    t.datetime "created_at",                                     null: false
-    t.datetime "updated_at",                                     null: false
+    t.string   "neighborhood"
+    t.string   "age_range"
+    t.string   "schedule"
+    t.integer  "zip_code"
+    t.integer  "license_id_1"
+    t.integer  "license_id_2"
+    t.integer  "license_id_3"
+    t.decimal  "latitude",      precision: 15, scale: 7
+    t.decimal  "longitude",     precision: 15, scale: 7
+    t.datetime "created_at",                             null: false
+    t.datetime "updated_at",                             null: false
+    t.string   "description"
+    t.string   "type"
   end
 
 end
