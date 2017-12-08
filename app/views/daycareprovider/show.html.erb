@@ -1,3 +1,7 @@
+<% content_for :head do %>
+  <title>Child Care in San Francisco </title>
+<% end %>
+
 <div class="col" id="centerme">
 	<div id="searchtitle" class="center-block align-middle"> 
 		San Francisco Child Care Directory
@@ -9,6 +13,7 @@
   		<div id="display" class="error"></div>
 	</div>
 </div>
+
 <%= render 'resultstable' %>
 
 <script type="text/javascript">
