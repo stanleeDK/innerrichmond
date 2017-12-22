@@ -6,65 +6,56 @@
 		<!-- <th>Age</th> -->
 		<th>Phone</th>
 		<th>Email</th>
+		<th>Type</th>
 		<th>License</th>
-		<!-- <th>Email</th> -->
 	</thead>
-	<% @dssdaycareproviders.each_with_index do |provider,index| %>
+
+	<% @daycareproviders.each_with_index do |provider, index| %>
 		<tr>
-			<!-- <td><%= index +1 %></td> -->
-			<td><%= provider.facilityname.titlecase %></td>
-			<td><%= provider.streetaddress.titlecase %>, <%= provider.zipcode %></td>
-			<!-- <td><%= provider.age_range %></td> -->
-			<td><%= number_to_phone(provider.telephone) %></td>
-			<td>-</td>
+			
 			<td>
-				<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= provider.facilitynumber %>">
-					<!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
-					<%= provider.facilitynumber %>
-				</a> 
+				<% if !provider.business_name.nil? %>
+					<%= provider.business_name.titlecase %>
+				<% else %>
+					<%= provider.name.titlecase %>
+				<% end %>
 			</td>
-			<!-- <td><i class="fa fa-envelope-o" aria-hidden="true"></i></td> -->
-		</tr>
-	<% end %>
-	<% @smalldaycareproviders.each do |small_provider| %>
-		<tr>
-			<!-- <td><%= @dss_daycare_count = @dss_daycare_count + 1 %></td> -->
-			<td><%= small_provider.name %></td>
-			<td><%= small_provider.mail_address_1 %>, <%= small_provider.mail_zip_code %></td>
-			<!-- <td><%= small_provider.age_range %></td> -->
-			<td><%= number_to_phone(small_provider.phone) %></td>
+			<td><%= provider.address.titlecase %></td>
+			<td><%= number_to_phone(provider.phone) %></td>
 			<td>
-				<% if !small_provider.email.nil? && small_provider.email != "Unknown" %>
-      				<div class="email_click">
+				<% if !provider.email.nil? && provider.email != "Unknown" %>
+					<!-- # <%= provider.email %> -->
+       				<div class="email_click">
       					<!-- <i class="fa fa-envelope-o" aria-hidden="true"></i> -->
       					email
-      					<div class="hidden_provider_deets"><%= small_provider.email %></div>
-      					<div class="hidden_provider_deets"><%= small_provider.name %></div>
-      				</div>
-      				
+      					<div class="hidden_provider_deets"><%= provider.email %></div>
+      					<div class="hidden_provider_deets"><%= provider.name %></div>
+      				</div> 
       			<% else %>
-      				-
+      				
       			<% end %>
-
 			</td>
-      		<td>
-				<% if small_provider.daycarelicenses.size > 1 %>
-					<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= small_provider.daycarelicenses.first.state_license_number %>">
-						<%= small_provider.daycarelicenses.first.state_license_number %>, 
+			<td>
+				<%= provider.daycare_type.titlecase %>
+			</td>
+			<td>
+				<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= provider.license_id_1 %>">
+					<!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
+					<%= provider.license_id_1 %>
+				</a> 
+				<% if !provider.license_id_2.blank? %>
+
+					<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= provider.license_id_2 %>">
 						<!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
-					</a> 	      		
-					 <a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= small_provider.daycarelicenses.second.state_license_number %>">
-					 	<%= small_provider.daycarelicenses.second.state_license_number %>
-					 	<!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
-					 </a> 
-				<% else %>
-					<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= small_provider.daycarelicenses.first.state_license_number %>">
-						<%= small_provider.daycarelicenses.first.state_license_number %>
-					</a> 	      		
-	      		<% end %>			
-      		</td>
+						(<%= provider.license_id_2 %>)
+					</a> 					
+				<% end %>
+			</td>
+
 		</tr>
 	<% end %>
+
+
 </table> 
 
 
@@ -107,3 +98,4 @@
 	}
 
 </script>
+<div style="display:none;"><%= @total_daycare_count_after_deduping %></div>

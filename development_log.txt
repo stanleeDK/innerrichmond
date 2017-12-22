@@ -84,3 +84,5 @@ Nov 15th
 Nov 22 
 - Build something to prevent duplicates then rescrape and show them the citations and violations 
 
+dev 21 
+- gotta do better with the de-duping. right now you only go through ccsf which may have multiple licenses per daycare. then you look for dupes using only the first license, thus leaving the additional license unchecked for whether that too exists in the dss group

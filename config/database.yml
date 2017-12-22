@@ -17,6 +17,7 @@ default: &default
 development:
   adapter: postgresql
   database: innerrichmond_development
+  # database: innerrichmond_1217
   username: admin
   password:
   host: localhost
