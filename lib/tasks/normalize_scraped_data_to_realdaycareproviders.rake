@@ -23,7 +23,7 @@ namespace :normalize do
 			realdcprovider 					= Realdaycareprovider.new
 			realdcprovider.name 			= smalldcp.name
 			realdcprovider.business_name 	= smalldcp.alternate_name
-			# realdcprovider.type 			= dss.facilitytype
+			realdcprovider.daycare_type 	= "Family Home Based Daycare"
 			realdcprovider.phone 			= smalldcp.phone
 			realdcprovider.email 			= smalldcp.email
 			realdcprovider.url 				= smalldcp.url
@@ -67,7 +67,7 @@ namespace :normalize do
 			realdcprovider 					= Realdaycareprovider.new
 			realdcprovider.name 			= dss.facilityname
 			realdcprovider.business_name 	= dss.facilityname
-			realdcprovider.type 			= dss.facilitytype
+			realdcprovider.daycare_type 	= dss.facilitytype
 			realdcprovider.phone 			= dss.telephone
 			# realdcprovider.email 			= dss.
 			# realdcprovider.url 			= dss.
