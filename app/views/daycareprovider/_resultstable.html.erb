@@ -6,8 +6,8 @@
 		<!-- <th>Age</th> -->
 		<th>Phone</th>
 		<th>Email</th>
+		<th>Type</th>
 		<th>License</th>
-		<!-- <th>Email</th> -->
 	</thead>
 
 	<% @daycareproviders.each_with_index do |provider, index| %>
@@ -24,29 +24,34 @@
 			<td><%= number_to_phone(provider.phone) %></td>
 			<td>
 				<% if !provider.email.nil? && provider.email != "Unknown" %>
-      				<div class="email_click">
+					<!-- # <%= provider.email %> -->
+       				<div class="email_click">
       					<!-- <i class="fa fa-envelope-o" aria-hidden="true"></i> -->
-      					see email
+      					email
       					<div class="hidden_provider_deets"><%= provider.email %></div>
       					<div class="hidden_provider_deets"><%= provider.name %></div>
-      				</div>
+      				</div> 
       			<% else %>
-      				-
+      				
       			<% end %>
+			</td>
+			<td>
+				<%= provider.daycare_type.titlecase %>
 			</td>
 			<td>
 				<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= provider.license_id_1 %>">
 					<!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
 					<%= provider.license_id_1 %>
 				</a> 
-				<% if !provider.license_id_1.nil? %>
-					/
+				<% if !provider.license_id_2.blank? %>
+
 					<a target="_blank" href="https://secure.dss.ca.gov/CareFacilitySearch/FacDetail/<%= provider.license_id_2 %>">
 						<!-- <i class="fa fa-id-card-o" aria-hidden="true"></i> -->
-						<%= provider.license_id_2 %>
+						(<%= provider.license_id_2 %>)
 					</a> 					
 				<% end %>
 			</td>
+
 		</tr>
 	<% end %>
 
