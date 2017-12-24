@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171203224639) do
+ActiveRecord::Schema.define(version: 20171223173351) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -177,10 +177,10 @@ ActiveRecord::Schema.define(version: 20171203224639) do
   end
 
   create_table "neighborhoods", force: :cascade do |t|
-    t.integer  "neighborhood_id"
     t.string   "neighborhood_name"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
+    t.string   "slug"
   end
 
   create_table "realdaycareproviders", force: :cascade do |t|
@@ -190,19 +190,19 @@ ActiveRecord::Schema.define(version: 20171203224639) do
     t.string   "email"
     t.string   "url"
     t.string   "address"
-    t.string   "neighborhood"
     t.string   "age_range"
     t.string   "schedule"
     t.integer  "zip_code"
     t.integer  "license_id_1"
     t.integer  "license_id_2"
     t.integer  "license_id_3"
-    t.decimal  "latitude",      precision: 15, scale: 7
-    t.decimal  "longitude",     precision: 15, scale: 7
-    t.datetime "created_at",                             null: false
-    t.datetime "updated_at",                             null: false
+    t.decimal  "latitude",        precision: 15, scale: 7
+    t.decimal  "longitude",       precision: 15, scale: 7
+    t.datetime "created_at",                               null: false
+    t.datetime "updated_at",                               null: false
     t.string   "description"
     t.string   "daycare_type"
+    t.integer  "neighborhood_id"
   end
 
 end

@@ -4,6 +4,35 @@ https://www.trulia.com/real_estate/Inner_Richmond-San_Francisco/1423/market-tren
 
 pull data from production 
 heroku pg:pull DATABASE_URL innerrichmond_development --app innerrichmond
+rails generate migration add_slug_to_neighborhoods slug:string
+
+Deploy to production
+git push heroku master
+heroku run rake db:migrate
+heroku pg:push innerrichmond_development DATABASE_URL --app innerrichmond
+
+Geo Coding Key: AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
+
+Update on Associations 
+1. For a one to many relationship, you can do the following and essentially establish the relationships which can be accessed via objects in code 
+
+2. Establish the relationship between the two in the models
+class Realdaycareprovider < ActiveRecord::Base
+	belongs_to :neighborhood
+end
+class Neighborhood < ActiveRecord::Base
+	has_many :realdaycareproviders
+end
+
+3. Also ensure the keys in the db are set up correctly. I.e. in the realdaycareproviders table have a neighborhood_id and in the neighborhoods table have a primary key that maps to the neighborhood_id column
+
+4. Use rails! Access the objects in both directions 
+n = Neighborhood.first
+puts n.realdaycareproviders.first.name
+
+daycares = Realdaycareprovider.find(3)
+puts daycares.neighborhood.neighborhood_name
+
 
 SCRAPING APPROACH
 1. For each source create a scraper that writes to a csv file, trigger via rake

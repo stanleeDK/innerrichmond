@@ -1,0 +1,90 @@
+
+<% content_for :head do %>
+  <title>Day Cares in <%= @ngb_name%>, San Francisco, CA 2017 </title>
+  <meta name="description" content="Here is the definitive list of daycares in <%= @ngb_name%>, San Francisco, complete with phone numbers, emails and information on any violations or citations." />
+
+<% end %>
+<h3 id="header">Day Cares <%= @ngb_name%>, San Francisco</h3>
+
+<% @dcps.each do |dcp| %>
+	
+	
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title spacing">
+      <div id="cardheadertext">
+      <% if dcp.alternate_name.blank? %>
+        <%= dcp.name %>
+      <% else %> 
+        <%= dcp.alternate_name %>
+      <% end %> 
+<!--         <span class="card-text rightsidecard">
+          <span id="toplicense">
+            <ul>
+              <li><b>License:</b> <%= dcp.daycarelicenses.first.state_license_number %></li>
+              <li><b>Capactiy:</b> <%=dcp.daycarelicenses.first.capacity %></li>
+            </ul>
+          <span>
+            <% if dcp.daycarelicenses.size > 1 %>
+          <span id="bottomlicense">
+            <ul>
+              <li><b>License: </b><%= dcp.daycarelicenses.second.state_license_number %></li>
+              <li><b>Capactiy: </b><%=dcp.daycarelicenses.first.capacity %></li>
+            </ul>
+            <% end %>
+          </span>
+        </span>
+      </div> -->
+
+    </h4>
+
+    <h6 class="card-subtitle mb-2 text-muted">
+      <small class="text-muted">
+        <% if dcp.alternate_name.blank? %>
+        	 <%= dcp.address_1 %> <%= dcp.mail_zip_code %>
+        <% else %>
+        	<%= dcp.name %> @ <%= dcp.address_1 %> <%= dcp.mail_zip_code %>
+       	<% end %>
+      </small>
+    </h6>
+
+    <h6 class="card-subtitle mb-2 text-muted">
+      <table id="table1">
+        <tr>
+          <td><%= dcp.daycarelicenses.first.capacity %></td>
+          <td><%= dcp.daycarelicenses.first.vacancies %></td>
+          <td><%= dcp.daycarelicenses.first.age_from_year %>-<%= dcp.daycarelicenses.first.age_to_year %></td>
+        </tr>
+        <tr class="tablelabels">
+          <td>Capacity</td>
+          <td>Vacancies</td>
+          <td>Age (years)</td>
+        </tr>
+        
+
+      </table>
+
+    </h6>
+
+    <p class="card-text"><%= dcp.description %></p>
+    
+    
+    <div class="contactdeets">
+      <span id="email"><%= number_to_phone(dcp.phone) %> </span>
+      <span id="email2"><%= dcp.email %></span>
+    </div>
+    
+    
+  </div>
+      <div  class="card-footer text-muted">
+      <small>#<%= dcp.daycarelicenses.first.state_license_number %></small>
+      <% if dcp.daycarelicenses.size > 1 %>
+        <small>#<%= dcp.daycarelicenses.second.state_license_number %></small>
+      <% end %>
+    </div>
+
+</div>	
+<% end %>
+<div id="footer"></div>
+

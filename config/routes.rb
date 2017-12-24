@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   # get 'providers'       => 'daycareprovider#show'
   get 'searchaddresses' => 'staticpages#officialaddresses'
   get 'flexboxtest'     => 'staticpages#flexboxtest'
-  resources :neighborhoods
+  get '/:id'            => 'neighborhoods#show'
+  # resources :neighborhoods
   # resources :neighborhoods, param: :name
 
   root 'daycareprovider#show'
