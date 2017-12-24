@@ -17,6 +17,25 @@
 
 <%= render 'daycareprovider/resultstable' %>
 
+<% content_for :neighborhood_links do %>
+        <section id="neighborhoods_list">
+          <div id="neighborhood_links_title">San Francisco Day Care Neighborhoods </div>
+          <!-- <div class="container"> -->
+            <div class="row soace3" id="neighborhood_links">
+              <% @neighborhood_link_content.each do |nlc | %>
+                <% if @neighborhood_link_content.count % 4 == 0 %>
+                  <div class="col-md-3 col-sm-6 col-xs-12">  
+                <% end %>                
+                  <div><a href="/<%= nlc.neighborhood_name %>"><%= nlc.neighborhood_name %></div></a>
+                <% if @neighborhood_link_content.count % 4 == 0 %>
+                  </div>
+                <% end %>
+              <% end %>
+            </div>
+          <!-- </div> -->
+        </section>
+<% end %>
+
 <script type="text/javascript">
 	
 	$('#searchinput').keyup(function() {

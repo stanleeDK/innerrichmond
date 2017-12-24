@@ -12,7 +12,7 @@ class NeighborhoodsController < ApplicationController
 
 	def show 
 		@daycareproviders 	= Neighborhood.where(slug: params[:id]).first.realdaycareproviders
-		 @ngb_name 			= Neighborhood.where(slug: params[:id]).first.neighborhood_name
+		@ngb_name 			= Neighborhood.where(slug: params[:id]).first.neighborhood_name
 		render template: "daycareprovider/neighborhood_show"
 	end 
 

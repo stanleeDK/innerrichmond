@@ -7,12 +7,13 @@ Rails.application.routes.draw do
   # get 'providers'       => 'daycareprovider#show'
   get 'searchaddresses' => 'staticpages#officialaddresses'
   get 'flexboxtest'     => 'staticpages#flexboxtest'
-  get '/:id'            => 'neighborhoods#show'
+
   # resources :neighborhoods
   # resources :neighborhoods, param: :name
 
   root 'daycareprovider#show'
   get 'search'          => 'daycareprovider#search'
+  get ':id'            => 'neighborhoods#show'
 
   # get '/', to: 'staticpages#home_page'
 

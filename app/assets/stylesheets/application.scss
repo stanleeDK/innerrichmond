@@ -41,11 +41,13 @@ body {
 */
 
 #centerme {
+    /*border: 1px solid grey;*/
   padding-top: 85px;
   padding-bottom: 120px;
+  padding-right: 30px;
 }
 
-#searchtitle{
+#searchtitle, #neighborhood_links_title{
   text-align: center;
   margin-bottom: 10px;
 }
@@ -87,6 +89,14 @@ input{
   Search Div Homepage  end
 */
 
+.center-block {
+    /*border: 1px solid grey;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* 
   Search Div Search Results page start
 */
@@ -95,6 +105,7 @@ input{
   padding-top: 3px;
   padding-bottom: 30px;
 }
+
 
 #backlink {
   font-size: 85%;
@@ -117,14 +128,6 @@ body {
         max-width: 1200px;
     }
 }
-.navbar {
-  padding-left: 81px;
-  box-shadow:0 0 10px 0 rgba(0,0,0,.40)!important;
-  background-color: #ffffff;
-}
-.navbar-brand {
-	font-size: 20px;
-}
 
 
 .purple {
@@ -133,24 +136,6 @@ body {
 
 
 
-#header{
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.h{
-  height: 800px;
-}
-.vc {
-  display:flex;
-  align-items:center;
-
-}
 
 .container-fluid{
   height:100%;
@@ -160,49 +145,7 @@ body {
 }
 
 
-.card {
-	margin-top: 10px;
-	box-shadow:0px 3px 10px -3px; 
-  border-radius: 0;
-}
-.card-text {
-	font-size: 13px;
-}
-.spacing {
-  margin-bottom: 15px;
-}
 
-#cardheadertext {
-  color: #3C255B;
-}
-/**{
-  border: 1px solid black;
-}*/
-
-ul{
-  float: right;
-  clear: top;
-  margin-top: 5px;
-  margin-bottom: 3px;
-
-}
-ul, li {
-  display: inline-block;
-}
-li {
-  padding-left: 2
-}
-.rightsidecard{
-  overflow: hidden;
-
-}
-#bottomlicense{
-  clear: right;
-  float: right;
-}
-.card-text {
-  margin-top: 10px;
-}
 a {
   color: #09579a;
 
@@ -254,7 +197,18 @@ tr {
     padding-right: 5px;
   }
 }
+#neighborhoods_list {
+  padding-top: 100px;  
+}
+#neighborhood_links {
+/*border: 1px solid black;*/
+  padding-left: 25px;
+  padding-top: 10px;
+  font-size: 80%;
+  margin-bottom: 100px;
+}
 
 #footer{
   margin-top: 30px;
 }
+
