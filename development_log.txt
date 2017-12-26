@@ -115,3 +115,27 @@ Nov 22
 
 dev 21 
 - gotta do better with the de-duping. right now you only go through ccsf which may have multiple licenses per daycare. then you look for dupes using only the first license, thus leaving the additional license unchecked for whether that too exists in the dss group
+
+dec 25th
+google geo code example urls 
+
+1225+Steiner+St+Apt+517
+
+https://maps.googleapis.com/maps/api/geocode/json?address=1225+Steiner+St+Apt+517,San Francisco,CA,94115&key=AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
+
+https://maps.googleapis.com/maps/api/geocode/json?address=1378+15th+Ave,San Francisco,CA,94122&key=AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
+1378 - 15th Ave
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=1442+43rd+Ave,San Francisco,CA,94122&key=AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
+
+1442 43rd Ave
+
+https://maps.googleapis.com/maps/api/geocode/json?address=3101+Mission+St.+#405,San Francisco,CA,94110&key=AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
+3101 Mission St. #405
+
+https://maps.googleapis.com/maps/api/geocode/json?address=900 Kearny+St.+Suite+600,San Francisco,CA,94133&key=AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
+
+900 Kearny St. Suite 600 
+
+https://maps.googleapis.com/maps/api/geocode/json?address=900%20Kearny+St.+Suite+600,San%20Francisco,CA,94133&key=AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
