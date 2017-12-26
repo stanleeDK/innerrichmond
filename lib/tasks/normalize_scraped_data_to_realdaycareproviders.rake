@@ -11,6 +11,8 @@ namespace :normalize do
 	desc "normalize_to_realdaycareproviders"
 	task :normalize_to_realdaycareproviders => :environment do
 		
+		# ActiveRecord::Base.connection.reset_pk_sequence!('realdaycareproviders')
+		
 		# get all of the ones from children's council
 		smalldaycareproviders 	= Daycareprovider.all
 		dupe_daycares 			= Array.new
@@ -23,7 +25,7 @@ namespace :normalize do
 			realdcprovider 					= Realdaycareprovider.new
 			realdcprovider.name 			= smalldcp.name
 			realdcprovider.business_name 	= smalldcp.alternate_name
-			realdcprovider.daycare_type 	= "Family Home Based Daycare"
+			realdcprovider.daycare_type 	= "Home Based Daycare"
 			realdcprovider.phone 			= smalldcp.phone
 			realdcprovider.email 			= smalldcp.email
 			realdcprovider.url 				= smalldcp.url

@@ -5,3 +5,5 @@ Scrape and Normalizer Instructions 3rd Dec
 2. Basically do the same for dss_ca_gov_day_care_raws. The scrape_dss_ca_gove.rake hits the angular api, but should be modified to take the csv upload. 
 
 3. Run the normalize_scraped_data_to_realdaycareproviders.rake, which will take both sources of data an create realdaycareprovider objects. Having this unifing object allows for you to add value added data to it, without dealing with different datamodels (dss and ccssf) and it also future proofs the capability making it marginally easier to handle new sources of data. 
+
+4. Run the geo coding task 
