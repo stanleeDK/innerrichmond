@@ -3,6 +3,8 @@
   <meta name="description" content="Here is the definitive list of daycares in <%= @ngb_name%>, San Francisco, complete with phone numbers, emails and information on any violations or citations." />
 
 <% end %>
-<h3 id="header">Day Cares in the <%= @ngb_name%>, San Francisco</h3>
+<h3 id="neighborhood_header">Day Cares in the <%= @ngb_name%>, San Francisco</h3>
+<a id="backlink" href="/">< Home</a>
 
 <%= render 'daycareprovider/resultstable' %>
+<%= render 'daycareprovider/neighborhood_links_table' %>
