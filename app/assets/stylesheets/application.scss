@@ -17,22 +17,22 @@
 @import 'tether';
 @import 'select2';
 
-/*  
- * Style tweaks
- * --------------------------------------------------
- */
 
-*{
+* {
   /*border: 1px solid grey;*/
+}
+#testcardinstaticmaptestarea {
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
-  /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Oxygen', sans-serif;
-  color:#4F5559;
+  color: #4F5559;
 }
 
 
@@ -41,13 +41,13 @@ body {
 */
 
 #centerme {
-    /*border: 1px solid grey;*/
+  /*border: 1px solid grey;*/
   padding-top: 85px;
   padding-bottom: 120px;
   padding-right: 30px;
 }
 
-#searchtitle, #neighborhood_links_title{
+#searchtitle, #neighborhood_links_title {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -76,10 +76,10 @@ input{
   font-family: 'Oxygen', sans-serif;
 }
 
-::-webkit-input-placeholder { /* WebKit browsers */
+::-webkit-input-placeholder { 
+  /* WebKit browsers */
      opacity: 0.33 !important;
 }
-
 .error {
   color:#F7CB83;
   font-size: 70%;
@@ -88,6 +88,8 @@ input{
 /* 
   Search Div Homepage  end
 */
+
+
 
 .center-block {
     /*border: 1px solid grey;*/
@@ -106,7 +108,6 @@ input{
   padding-bottom: 30px;
 }
 
-
 #backlink {
   font-size: 85%;
   /*padding-bottom: 20px;*/
@@ -115,7 +116,6 @@ input{
 /* 
   Search Div Search Results page start
 */
-
 
 body {
   padding-top: 70px;
@@ -129,13 +129,9 @@ body {
     }
 }
 
-
 .purple {
   color: #410b91 !important;
 }
-
-
-
 
 .container-fluid{
   height:100%;
@@ -144,25 +140,25 @@ body {
   padding: 0;
 }
 
-
-
 a {
   color: #09579a;
 
 }
-@media (max-width: 320px){
-  #email{
-    /*margin-left: 0rem;*/
+/*@media (max-width: 320px){
+  #email {
     padding: 0px;
   }
-}
+}*/
+
 table{
   margin-top: 13px;
-  /*white-space: nowrap;*/
+
 }
+
 .table-striped tbody tr:nth-of-type(odd){
   background-color: #fbfbfb;
 }
+
 td {
   /*border: 1px solid black;*/
   /*padding-right: 10px;*/
@@ -191,12 +187,9 @@ tr {
   color:#3C255B;
   
 }
-@media (min-width: 375px){
-  #email{
-    /*margin-left: 0rem;*/
-    padding-right: 5px;
-  }
-}
+
+
+/*Neighborhood links Footer START*/
 #neighborhoods_list {
   padding-top: 100px;  
 }
@@ -212,11 +205,25 @@ tr {
   margin: 5px;
 }
 
-#neighborhood_header{
+#neighborhood_header {
   padding-bottom: 25px;
 }
+/*Neighborhood links Footer END */
 
-#footer{
+#footer {
   margin-top: 30px;
 }
+
+/*Mobile Start*/
+@media (min-width: 320px){
+  
+  td { white-space: nowrap; }
+  #searchinput {width: 100%;}
+  .search {width: 110%;}
+  #searchtitle{
+    width: 100%;
+    padding-left: 7px;}
+}
+/*Mobile End*/
+
 
