@@ -142,3 +142,7 @@ https://maps.googleapis.com/maps/api/geocode/json?address=900%20Kearny+St.+Suite
 
 https://maps.googleapis.com/maps/api/geocode/json?address=San%20Francisco,CA,94133&key=AIzaSyCnmgExygLuo6BD7yq7-Rfu40BXAo2oUd4
 
+
+Jan 23rd
+- fix the desktop search box width. Doesn't look that great after the min-width media query change. 
+

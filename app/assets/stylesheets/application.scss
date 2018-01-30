@@ -26,6 +26,19 @@
   width: 100px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+#firstcard {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 15px;
+}
+#dcdescription {
+  white-space: nowrap;
+}
+
+
+
+
+
+
 
 
 html,
@@ -122,12 +135,7 @@ body {
   background-color: #Ffffff;
 }
 
-@media (min-width: 1200px) {
-    .container{
-        /*max-width: 970px;*/
-        max-width: 1200px;
-    }
-}
+
 
 .purple {
   color: #410b91 !important;
@@ -151,7 +159,10 @@ a {
 }*/
 
 table{
-  margin-top: 13px;
+  /*margin-top: 13px;*/
+  width: 100%;
+  margin: 0px auto;
+  float: none;
 
 }
 
@@ -213,9 +224,11 @@ tr {
 #footer {
   margin-top: 30px;
 }
-
+@media (min-width: 1200px){
+  .customt {display: inline-table;}
+}
 /*Mobile Start*/
-@media (min-width: 320px){
+@media (min-width: 320px) and (max-width :414px) {
   
   td { white-space: nowrap; }
   #searchinput {width: 100%;}
