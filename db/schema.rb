@@ -11,10 +11,57 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171223173351) do
+ActiveRecord::Schema.define(version: 20190227221815) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "ccsf_raw_feb19s", force: :cascade do |t|
+    t.datetime "added_date"
+    t.string   "physical_address_city"
+    t.decimal  "physical_address_lat"
+    t.decimal  "physical_address_long"
+    t.string   "physical_address_state"
+    t.string   "physical_address_street1"
+    t.string   "physical_address_street2"
+    t.string   "physical_address_zip"
+    t.string   "mail_address_city"
+    t.decimal  "mail_address_lat"
+    t.decimal  "mail_address_long"
+    t.string   "mail_address_state"
+    t.string   "mail_address_street1"
+    t.string   "mail_address_street2"
+    t.string   "mail_address_zip"
+    t.string   "age_group_from_json"
+    t.string   "age_group_to_json"
+    t.string   "phonealt"
+    t.string   "phone_ext"
+    t.string   "attributes_json"
+    t.string   "center_name"
+    t.string   "email"
+    t.string   "enrollments_json"
+    t.string   "generalInfo_json"
+    t.datetime "incorporated_at"
+    t.string   "languages_json"
+    t.datetime "last_modified_at"
+    t.string   "license_id"
+    t.integer  "license_capcity"
+    t.string   "license_types_json"
+    t.string   "notes"
+    t.string   "phone"
+    t.string   "primary_owner_json"
+    t.string   "rates_json"
+    t.string   "schooldistricts"
+    t.string   "schooltransport"
+    t.string   "shift_days_json"
+    t.string   "shifts_json"
+    t.datetime "start_date"
+    t.datetime "status_changed_at"
+    t.string   "center_type"
+    t.string   "website"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
 
   create_table "daycarelicenses", force: :cascade do |t|
     t.integer  "ccsf_license_id"
@@ -155,6 +202,58 @@ ActiveRecord::Schema.define(version: 20171223173351) do
     t.string   "tsocase"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
+  end
+
+  create_table "feb2019_ccsf", id: false, force: :cascade do |t|
+    t.integer  "id"
+    t.integer  "day_care_provider_id"
+    t.string   "name"
+    t.string   "alternate_name"
+    t.string   "contact_name"
+    t.string   "phone"
+    t.string   "phone_ext"
+    t.string   "phone_other"
+    t.string   "phone_other_ext"
+    t.string   "fax"
+    t.string   "email"
+    t.string   "url"
+    t.string   "address_1"
+    t.string   "address_2"
+    t.integer  "city_id"
+    t.integer  "state_id"
+    t.string   "cross_street_1"
+    t.string   "cross_street_2"
+    t.string   "mail_address_1"
+    t.string   "mail_address_2"
+    t.string   "mail_city_id"
+    t.string   "mail_state_id"
+    t.string   "ssn"
+    t.string   "tax_id"
+    t.datetime "ccsf_created_at"
+    t.datetime "ccsf_updated_at"
+    t.decimal  "latitude",                         precision: 15, scale: 7
+    t.decimal  "longitude",                        precision: 15, scale: 7
+    t.integer  "schedule_year_id"
+    t.integer  "zip_code_id"
+    t.integer  "care_type_id"
+    t.string   "description"
+    t.string   "licensed_ages"
+    t.integer  "neighborhood_id"
+    t.integer  "mail_zip_code"
+    t.boolean  "accepting_referrals"
+    t.boolean  "meals_optional"
+    t.integer  "meal_sponsor_id"
+    t.string   "english_capability"
+    t.integer  "preferred_language_id"
+    t.boolean  "potty_training"
+    t.string   "co_op"
+    t.boolean  "nutrition_program"
+    t.string   "cached_geocodable_address_string"
+    t.integer  "license_id_1"
+    t.integer  "license_id_2"
+    t.integer  "license_id_3"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "ingested_trulia_properties", force: :cascade do |t|
